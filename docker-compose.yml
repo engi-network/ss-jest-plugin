@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  tests:
+    build:
+      context: .
+    command: pytest -s -k test_should_be_able_to_analyse_python_github_repo
+    #command: sleep inf
+    volumes:
+      - .:/code
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file: .env

@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9338b35f-6cd4-4d2a-9693-2bc3a69c727b" name="@e5057549a3bc 2022-07-12 15:15:44" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-07-12T15:15:44.4118935+00:00" queuing="2022-07-12T15:15:44.4118936+00:00" start="2022-07-12T15:15:43.5000663+00:00" finish="2022-07-12T15:15:44.7138162+00:00" />
+  <TestSettings name="default" id="94c8af9b-9354-4483-aa6e-5b628bce55ae">
+    <Deployment runDeploymentRoot="_e5057549a3bc_2022-07-12_15_15_44" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4450753e-10ff-4022-abb5-1d453c9930fa" testId="e0ca3fef-b483-7520-9ce9-48e3303362f5" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;ffff&quot;, expected: 65535)" computerName="e5057549a3bc" duration="00:00:00.0000032" startTime="2022-07-12T15:15:44.3437279+00:00" endTime="2022-07-12T15:15:44.3437280+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4450753e-10ff-4022-abb5-1d453c9930fa" />
+    <UnitTestResult executionId="1df83c32-f649-435e-87d0-78c3f2736312" testId="55dcd510-aecb-e832-adda-3fa7062fd28c" testName="Engi.Substrate.ScaleStreamTests.Int32_ErrorsForShortData" computerName="e5057549a3bc" duration="00:00:00.0004405" startTime="2022-07-12T15:15:44.4032650+00:00" endTime="2022-07-12T15:15:44.4032651+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1df83c32-f649-435e-87d0-78c3f2736312" />
+    <UnitTestResult executionId="114f52d0-b4f4-4250-b26f-c142edb8b39a" testId="c4ba2307-b703-af72-52e5-b32809b8dfbe" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0370605040&quot;, expected: &quot;1079009392&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3968435+00:00" endTime="2022-07-12T15:15:44.3968435+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="114f52d0-b4f4-4250-b26f-c142edb8b39a" />
+    <UnitTestResult executionId="3f681dd3-a5c9-452a-9915-701fc05f2507" testId="ca60c8bb-6469-e3db-0bf9-c0b088b93cd6" testName="Engi.Substrate.ScaleStreamTests.UInt16_ErrorsForShortData" computerName="e5057549a3bc" duration="00:00:00.0000922" startTime="2022-07-12T15:15:44.4067072+00:00" endTime="2022-07-12T15:15:44.4067072+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f681dd3-a5c9-452a-9915-701fc05f2507" />
+    <UnitTestResult executionId="08bc3329-d5aa-44f3-aa7b-e90ae9a4937f" testId="9decc1c2-9094-7842-bcff-f49a6c76b9d1" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00060000&quot;, expected: 1536)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.3978240+00:00" endTime="2022-07-12T15:15:44.3978240+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08bc3329-d5aa-44f3-aa7b-e90ae9a4937f" />
+    <UnitTestResult executionId="76a0a022-5246-47b4-89f2-4aa9e347b85e" testId="45210752-bcfe-4781-3526-b9395d5cd7c8" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;1501&quot;, expected: &quot;69&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000018" startTime="2022-07-12T15:15:44.3969492+00:00" endTime="2022-07-12T15:15:44.3969492+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76a0a022-5246-47b4-89f2-4aa9e347b85e" />
+    <UnitTestResult executionId="361b6e97-3ffd-4b03-9aa5-87e314e82f87" testId="effb8b49-1bc9-1aae-f5f5-f2478a0ce6b9" testName="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsNoBool" computerName="e5057549a3bc" duration="00:00:00.0000933" startTime="2022-07-12T15:15:44.4056860+00:00" endTime="2022-07-12T15:15:44.4056860+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="361b6e97-3ffd-4b03-9aa5-87e314e82f87" />
+    <UnitTestResult executionId="65922af5-6be5-4e0f-a061-f294a6f7811c" testId="02d65b2b-548b-59c1-b041-fc28b8e942fd" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;030000ffff&quot;, expected: &quot;4294901760&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3968744+00:00" endTime="2022-07-12T15:15:44.3968744+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65922af5-6be5-4e0f-a061-f294a6f7811c" />
+    <UnitTestResult executionId="95c10917-43fd-40a6-83b1-5ccd0ddf5aca" testId="7a3ec59c-b225-fd69-9a2d-0840bdae24ae" testName="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsExistingFalseBool" computerName="e5057549a3bc" duration="00:00:00.0000524" startTime="2022-07-12T15:15:44.4068582+00:00" endTime="2022-07-12T15:15:44.4068582+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c10917-43fd-40a6-83b1-5ccd0ddf5aca" />
+    <UnitTestResult executionId="131ad06d-9868-44b8-a714-7bd0863c2d2e" testId="b5913daa-f9ac-5372-1592-648ecfde15c6" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;07ffffffffff&quot;, expected: &quot;1099511627775&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000025" startTime="2022-07-12T15:15:44.3968145+00:00" endTime="2022-07-12T15:15:44.3968146+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="131ad06d-9868-44b8-a714-7bd0863c2d2e" />
+    <UnitTestResult executionId="ce712cf1-93b7-4c62-bbd3-b94d23e35955" testId="66f2c04c-8fa4-9f85-f673-78630bfb6ae4" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffff0000&quot;, expected: 65535)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4016077+00:00" endTime="2022-07-12T15:15:44.4016078+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce712cf1-93b7-4c62-bbd3-b94d23e35955" />
+    <UnitTestResult executionId="5bb39396-33d2-413f-817d-6a42d651f31f" testId="4373995e-291d-c0c0-92b0-f63377fe6425" testName="Engi.Substrate.ScaleStreamTests.UInt128_Reads" computerName="e5057549a3bc" duration="00:00:00.0000855" startTime="2022-07-12T15:15:44.4033644+00:00" endTime="2022-07-12T15:15:44.4033644+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bb39396-33d2-413f-817d-6a42d651f31f" />
+    <UnitTestResult executionId="e027465f-c8ff-46ff-8c09-61054a822448" testId="1a140407-d959-d182-a540-b67db0f34caf" testName="Engi.Substrate.ScaleStreamTests.UInt16_Reads" computerName="e5057549a3bc" duration="00:00:00.0000276" startTime="2022-07-12T15:15:44.4039543+00:00" endTime="2022-07-12T15:15:44.4039544+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e027465f-c8ff-46ff-8c09-61054a822448" />
+    <UnitTestResult executionId="d33de9e4-ff07-4507-82f5-69bac7e8b664" testId="2b1d649f-fe93-c17f-d284-0624e7dad5c8" testName="Engi.Substrate.ScaleStreamTests.Enum_ErrorsWithUnknownEnumValue" computerName="e5057549a3bc" duration="00:00:00.0005381" startTime="2022-07-12T15:15:44.4056260+00:00" endTime="2022-07-12T15:15:44.4056261+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d33de9e4-ff07-4507-82f5-69bac7e8b664" />
+    <UnitTestResult executionId="e6caab34-87a9-473c-b424-834c84ed13e2" testId="769b4a52-639b-204e-a97d-bb09df6a5240" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;fdff&quot;, expected: &quot;16383&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000252" startTime="2022-07-12T15:15:44.3957892+00:00" endTime="2022-07-12T15:15:44.3957892+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6caab34-87a9-473c-b424-834c84ed13e2" />
+    <UnitTestResult executionId="68ac5e77-d023-4daf-bd66-026991eacccb" testId="ee203794-3b8d-c8b0-dc2f-e18091ecc98b" testName="Engi.Substrate.ScaleStreamTests.UInt128_ReadsWithZeroPrefix" computerName="e5057549a3bc" duration="00:00:00.0001717" startTime="2022-07-12T15:15:44.4066432+00:00" endTime="2022-07-12T15:15:44.4066433+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68ac5e77-d023-4daf-bd66-026991eacccb" />
+    <UnitTestResult executionId="176dd90e-0049-4cbe-86aa-2238684d1407" testId="b093fc8f-ff12-0844-4561-c2216eadad56" testName="Engi.Substrate.ScaleStreamTests.UInt64_Reads" computerName="e5057549a3bc" duration="00:00:00.0000917" startTime="2022-07-12T15:15:44.4033319+00:00" endTime="2022-07-12T15:15:44.4033319+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="176dd90e-0049-4cbe-86aa-2238684d1407" />
+    <UnitTestResult executionId="f7dbc88c-616b-440d-ad0c-2d0e9eebc1c2" testId="b425b854-9d91-ab35-5f39-7b203b9f7506" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;fefeffff&quot;, expected: -258)" computerName="e5057549a3bc" duration="00:00:00.0000018" startTime="2022-07-12T15:15:44.4031440+00:00" endTime="2022-07-12T15:15:44.4031440+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7dbc88c-616b-440d-ad0c-2d0e9eebc1c2" />
+    <UnitTestResult executionId="73261a76-f83f-42c3-a843-05baa4b85397" testId="f4189c78-aabf-361e-cf7f-1ab19f4bc38c" testName="Engi.Substrate.KeypairTests.Export_WithPassword" computerName="e5057549a3bc" duration="00:00:00.0019549" startTime="2022-07-12T15:15:44.4309036+00:00" endTime="2022-07-12T15:15:44.4309037+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73261a76-f83f-42c3-a843-05baa4b85397">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.</Message>
+          <StackTrace>   at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path) in /source/engi-substrate/Keys/SR25519.cs:line 45
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+   at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed) in /source/engi-substrate/Keys/KeypairFactory.cs:line 42
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist) in /source/engi-substrate/Keys/KeypairFactory.cs:line 33
+   at Engi.Substrate.KeypairTests.Export_WithPassword() in /source/engi-tests/KeypairTests.cs:line 50</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6f79a4b-8d9d-4cdf-8175-d84a9995d5fe" testId="5922b30e-faf3-fc29-3a0e-2117af7c2e7d" testName="Engi.Substrate.ScaleStreamTests.OptionalBool_ErrorsIfInvalidValue" computerName="e5057549a3bc" duration="00:00:00.0001939" startTime="2022-07-12T15:15:44.4058781+00:00" endTime="2022-07-12T15:15:44.4058782+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6f79a4b-8d9d-4cdf-8175-d84a9995d5fe" />
+    <UnitTestResult executionId="1c782532-da6d-4926-be9d-1e4ade3d10bd" testId="8e2441e7-a03f-da3c-b26a-26e96f455a1e" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;a8&quot;, expected: 42)" computerName="e5057549a3bc" duration="00:00:00.0000022" startTime="2022-07-12T15:15:44.4006141+00:00" endTime="2022-07-12T15:15:44.4006141+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c782532-da6d-4926-be9d-1e4ade3d10bd" />
+    <UnitTestResult executionId="5397e81c-45de-420f-9948-41b75c4eb94b" testId="1dc38cfe-8dd2-306a-8f62-602b0cb07d69" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;04&quot;, expected: 1)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.4007615+00:00" endTime="2022-07-12T15:15:44.4007616+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5397e81c-45de-420f-9948-41b75c4eb94b" />
+    <UnitTestResult executionId="1f5bb17c-2bf1-4d49-b110-8328c004001f" testId="d710074d-969d-2874-6f33-94bc3e23bdea" testName="Engi.Substrate.ScaleStreamTests.UInt32_Reads" computerName="e5057549a3bc" duration="00:00:00.0037746" startTime="2022-07-12T15:15:44.4055870+00:00" endTime="2022-07-12T15:15:44.4055871+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f5bb17c-2bf1-4d49-b110-8328c004001f" />
+    <UnitTestResult executionId="2fe286e6-2585-49e2-a4f8-1021ce5f0050" testId="cc1d7564-250b-13ef-4f5c-ebd2437e88e2" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0300000040&quot;, expected: &quot;1073741824&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3967857+00:00" endTime="2022-07-12T15:15:44.3967857+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe286e6-2585-49e2-a4f8-1021ce5f0050" />
+    <UnitTestResult executionId="a951bbd0-49ac-4938-8bbd-ecb57d21f3df" testId="f941a7c9-7621-4e2e-387e-cbaf9a8d93b4" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00000000&quot;, expected: 0)" computerName="e5057549a3bc" duration="00:00:00.0014907" startTime="2022-07-12T15:15:44.3977053+00:00" endTime="2022-07-12T15:15:44.3977053+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a951bbd0-49ac-4938-8bbd-ecb57d21f3df" />
+    <UnitTestResult executionId="e9d314f8-d65a-4a12-a41b-320479b1c817" testId="8e362556-6590-853e-7bfd-9fc189b676a6" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;03ffffffff&quot;, expected: &quot;4294967295&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000023" startTime="2022-07-12T15:15:44.3967394+00:00" endTime="2022-07-12T15:15:44.3967395+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9d314f8-d65a-4a12-a41b-320479b1c817" />
+    <UnitTestResult executionId="8d7354d2-5a42-40dd-9d6a-49cc1d1469eb" testId="5bf94dca-1bb7-9089-7663-a5098ee11a46" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0101&quot;, expected: &quot;64&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000022" startTime="2022-07-12T15:15:44.3958914+00:00" endTime="2022-07-12T15:15:44.3958915+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d7354d2-5a42-40dd-9d6a-49cc1d1469eb" />
+    <UnitTestResult executionId="bac785e9-73b9-4e95-8830-1e8c788c91a9" testId="9445f183-bff2-ff58-3d33-753868952577" testName="Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword" computerName="e5057549a3bc" duration="00:00:00.0033764" startTime="2022-07-12T15:15:44.4279001+00:00" endTime="2022-07-12T15:15:44.4279002+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bac785e9-73b9-4e95-8830-1e8c788c91a9">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.</Message>
+          <StackTrace>   at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path) in /source/engi-substrate/Keys/SR25519.cs:line 45
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+   at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed) in /source/engi-substrate/Keys/KeypairFactory.cs:line 42
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist) in /source/engi-substrate/Keys/KeypairFactory.cs:line 33
+   at Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword() in /source/engi-tests/KeypairTests.cs:line 14</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="770df3ef-8d5e-4151-ac41-8e66e83d72f2" testId="f8fb0aa3-d2e0-3ff2-67bf-a01dd5cfe5c7" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;fc&quot;, expected: &quot;63&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3959253+00:00" endTime="2022-07-12T15:15:44.3959254+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="770df3ef-8d5e-4151-ac41-8e66e83d72f2" />
+    <UnitTestResult executionId="24594e19-6bcf-4904-bc10-f395f42f7acf" testId="c9d1cd07-f9e1-eaf0-8124-eaab9e1088f4" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;7d010000&quot;, expected: 381)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.3994465+00:00" endTime="2022-07-12T15:15:44.3994466+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24594e19-6bcf-4904-bc10-f395f42f7acf" />
+    <UnitTestResult executionId="8ba30f6c-3e78-414a-8b14-983b13ca0e8a" testId="43fe9a5b-7e25-a7d0-89bf-b18c60664a82" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;00000000&quot;, expected: 0)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4016584+00:00" endTime="2022-07-12T15:15:44.4016585+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ba30f6c-3e78-414a-8b14-983b13ca0e8a" />
+    <UnitTestResult executionId="02f4f806-93bf-447f-bf10-1e8d013750cd" testId="d16313bc-4500-be5a-2792-bd1d674c9f4e" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;02000100&quot;, expected: &quot;16384&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3969007+00:00" endTime="2022-07-12T15:15:44.3969007+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02f4f806-93bf-447f-bf10-1e8d013750cd" />
+    <UnitTestResult executionId="a14b80b2-9ea0-47de-b107-4427e1e7f11e" testId="fe634cc4-ab69-77bc-ab4a-0d2e63cad045" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00ff0000&quot;, expected: 65280)" computerName="e5057549a3bc" duration="00:00:00.0000044" startTime="2022-07-12T15:15:44.3994833+00:00" endTime="2022-07-12T15:15:44.3994833+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a14b80b2-9ea0-47de-b107-4427e1e7f11e" />
+    <UnitTestResult executionId="d62b69b1-72a7-43b3-baf4-50efd2bd32f2" testId="daff69d2-3050-bf4b-9f97-d9390bdb6cec" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;9cffffff&quot;, expected: -100)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.4017347+00:00" endTime="2022-07-12T15:15:44.4017347+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d62b69b1-72a7-43b3-baf4-50efd2bd32f2" />
+    <UnitTestResult executionId="8aebb611-14cf-4b19-9922-64246de37ac0" testId="6858e9f2-5473-e261-c81f-898f98dac588" testName="Engi.Substrate.ScaleStreamTests.Ctor_ErrorsIfNoInput" computerName="e5057549a3bc" duration="00:00:00.0002129" startTime="2022-07-12T15:15:44.4056563+00:00" endTime="2022-07-12T15:15:44.4056563+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aebb611-14cf-4b19-9922-64246de37ac0" />
+    <UnitTestResult executionId="7257bd04-fd92-4fce-bf6c-2cac824dadc9" testId="77a840a5-ba95-7e95-645b-909863644d39" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0700ffffffff&quot;, expected: &quot;1099511627520&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.3969242+00:00" endTime="2022-07-12T15:15:44.3969243+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7257bd04-fd92-4fce-bf6c-2cac824dadc9" />
+    <UnitTestResult executionId="d5857142-15db-410e-b223-daf01d21542e" testId="9281a529-ca17-ccae-c1da-b9658b427358" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;01000000&quot;, expected: 1)" computerName="e5057549a3bc" duration="00:00:00.0001104" startTime="2022-07-12T15:15:44.4008008+00:00" endTime="2022-07-12T15:15:44.4008008+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5857142-15db-410e-b223-daf01d21542e" />
+    <UnitTestResult executionId="d748061f-b3e8-47ad-93cb-ed4bfd4bb6e9" testId="a1bfc000-9ac3-3fe1-29f0-fe0d23f00404" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;0000ff00&quot;, expected: 16711680)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3978012+00:00" endTime="2022-07-12T15:15:44.3978012+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d748061f-b3e8-47ad-93cb-ed4bfd4bb6e9" />
+    <UnitTestResult executionId="dbb58706-857f-46a1-b7ae-15dfcd1d302f" testId="232e3b24-5ffd-1d3d-f211-6e75a423c831" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;04&quot;, expected: &quot;1&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3969848+00:00" endTime="2022-07-12T15:15:44.3969848+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbb58706-857f-46a1-b7ae-15dfcd1d302f" />
+    <UnitTestResult executionId="4cb8eec4-810a-4fb2-b3ac-69e0f90971e2" testId="f74765fe-ea15-924b-ef66-eaf9cd8c57d3" testName="Engi.Substrate.Integration.HealthTest.Healthy" computerName="e5057549a3bc" duration="00:00:00.1306407" startTime="2022-07-12T15:15:44.4485057+00:00" endTime="2022-07-12T15:15:44.4485058+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4cb8eec4-810a-4fb2-b3ac-69e0f90971e2" />
+    <UnitTestResult executionId="f2dbb5b9-afc3-45fa-bcdb-1fda640c3888" testId="636add63-32dc-bc44-8eb2-5fa848035055" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;1501&quot;, expected: 69)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4006851+00:00" endTime="2022-07-12T15:15:44.4006851+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2dbb5b9-afc3-45fa-bcdb-1fda640c3888" />
+    <UnitTestResult executionId="70d42c01-6098-45ad-9d34-fd028b2f7cf2" testId="75964e3b-3569-01fc-e23c-0e5bbbf16912" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;f0f0&quot;, expected: 61680)" computerName="e5057549a3bc" duration="00:00:00.0000232" startTime="2022-07-12T15:15:44.3434717+00:00" endTime="2022-07-12T15:15:44.3434717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70d42c01-6098-45ad-9d34-fd028b2f7cf2" />
+    <UnitTestResult executionId="0b003522-7401-4748-8b0b-9df424b852d6" testId="9528eb0d-b236-05bf-5b1e-d5142c6ecff2" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;ffffffff&quot;, expected: -1)" computerName="e5057549a3bc" duration="00:00:00.0000358" startTime="2022-07-12T15:15:44.4016874+00:00" endTime="2022-07-12T15:15:44.4016874+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b003522-7401-4748-8b0b-9df424b852d6" />
+    <UnitTestResult executionId="059750f5-d604-4a84-b87e-fccf7d8b16c4" testId="a782c25e-cf2e-b30e-e481-d96cd4c9d62e" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;0f0f0f0f&quot;, expected: 252645135)" computerName="e5057549a3bc" duration="00:00:00.0000041" startTime="2022-07-12T15:15:44.3977531+00:00" endTime="2022-07-12T15:15:44.3977531+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="059750f5-d604-4a84-b87e-fccf7d8b16c4" />
+    <UnitTestResult executionId="a8046108-a0b0-4200-8c7f-aca5d5dd319c" testId="0d301ad2-4895-0f20-ba65-b1c839b19529" testName="Engi.Substrate.ScaleStreamTests.Enum_ReadValues" computerName="e5057549a3bc" duration="00:00:00.0002055" startTime="2022-07-12T15:15:44.4068215+00:00" endTime="2022-07-12T15:15:44.4068215+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8046108-a0b0-4200-8c7f-aca5d5dd319c" />
+    <UnitTestResult executionId="720fd15b-07fe-40ec-b9a4-4bdc6d1d8593" testId="4d888832-3e24-d342-ebe1-429e72b644a7" testName="Engi.Substrate.ScaleStreamTests.List_ReadsUInt16" computerName="e5057549a3bc" duration="00:00:00.0027423" startTime="2022-07-12T15:15:44.4058365+00:00" endTime="2022-07-12T15:15:44.4058365+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="720fd15b-07fe-40ec-b9a4-4bdc6d1d8593" />
+    <UnitTestResult executionId="e22f5406-8bb9-413c-8d53-0fa5ba48f10e" testId="f723d29f-d766-8d7f-fbdd-75c241caecc2" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;ff00&quot;, expected: 255)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3437662+00:00" endTime="2022-07-12T15:15:44.3437662+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e22f5406-8bb9-413c-8d53-0fa5ba48f10e" />
+    <UnitTestResult executionId="8275e5c1-8ce9-4b3b-afef-9a42655f1fa7" testId="4c717678-b433-bcf7-0151-dd93d5ef10ce" testName="Engi.Substrate.ScaleStreamTests.UInt32_ErrorsForShortData" computerName="e5057549a3bc" duration="00:00:00.0001199" startTime="2022-07-12T15:15:44.4066789+00:00" endTime="2022-07-12T15:15:44.4066790+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8275e5c1-8ce9-4b3b-afef-9a42655f1fa7" />
+    <UnitTestResult executionId="ff50df15-edfc-41f9-a18e-72492eae3171" testId="5c99cf5f-985d-9048-8ea3-14dc30a5e4cd" testName="Engi.Substrate.ScaleStreamTests.Bool_ErrorIfInvalidValue" computerName="e5057549a3bc" duration="00:00:00.0001202" startTime="2022-07-12T15:15:44.4067815+00:00" endTime="2022-07-12T15:15:44.4067815+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff50df15-edfc-41f9-a18e-72492eae3171" />
+    <UnitTestResult executionId="183bd03b-20f7-469f-8c0f-a7df5180dbd4" testId="0ee1bbce-ce23-2c00-2e42-a8da03e95aa3" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;02000100&quot;, expected: 16384)" computerName="e5057549a3bc" duration="00:00:00.0173797" startTime="2022-07-12T15:15:44.3997140+00:00" endTime="2022-07-12T15:15:44.3997140+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="183bd03b-20f7-469f-8c0f-a7df5180dbd4" />
+    <UnitTestResult executionId="c28922af-fb6d-47b3-9ffd-576baa20d22e" testId="c8cd5618-3a45-2e6d-08ea-489cb9b2841a" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00030000&quot;, expected: 768)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.3977781+00:00" endTime="2022-07-12T15:15:44.3977781+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c28922af-fb6d-47b3-9ffd-576baa20d22e" />
+    <UnitTestResult executionId="defa9e6e-3183-4020-9b4b-41815ba3d952" testId="0eb6525c-48d6-c8ac-1ed8-6ffd73093eed" testName="Engi.Substrate.HeaderTests.ComputeHash" computerName="e5057549a3bc" duration="00:00:00.0355217" startTime="2022-07-12T15:15:44.3995393+00:00" endTime="2022-07-12T15:15:44.3995394+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="defa9e6e-3183-4020-9b4b-41815ba3d952" />
+    <UnitTestResult executionId="378d6e55-b553-4ec9-9e7a-65fb9b2c8fb5" testId="e1fbd1b3-6a9e-a887-1de4-7a9274ade0b4" testName="Engi.Substrate.ScaleStreamTests.UInt64_ReadsWithZeroPrefix" computerName="e5057549a3bc" duration="00:00:00.0000299" startTime="2022-07-12T15:15:44.4033935+00:00" endTime="2022-07-12T15:15:44.4033935+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="378d6e55-b553-4ec9-9e7a-65fb9b2c8fb5" />
+    <UnitTestResult executionId="551df824-2891-4cc7-b8fa-448900d60b3a" testId="550c9626-3b77-0ae1-a48e-4f33751de489" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;f00f&quot;, expected: 4080)" computerName="e5057549a3bc" duration="00:00:00.0157542" startTime="2022-07-12T15:15:44.3344637+00:00" endTime="2022-07-12T15:15:44.3344788+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="551df824-2891-4cc7-b8fa-448900d60b3a" />
+    <UnitTestResult executionId="c47ab46b-582e-41b9-b855-b5f88aff7d0b" testId="d51fd951-5911-6077-f6ad-a1b9a38aa873" testName="Engi.Substrate.ScaleStreamTests.Union_IntBool_Reads(hex: &quot;0101&quot;, expectedIndex: 1, expectedType: typeof(bool), expectedResult: True)" computerName="e5057549a3bc" duration="00:00:00.0000853" startTime="2022-07-12T15:15:44.3996010+00:00" endTime="2022-07-12T15:15:44.3996010+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c47ab46b-582e-41b9-b855-b5f88aff7d0b" />
+    <UnitTestResult executionId="e680336e-55f5-4daf-ba0c-9f5e924d6bc2" testId="53c01412-196f-545f-a616-95608b04a4ba" testName="Engi.Substrate.ScaleStreamTests.Union_ThrowsWhenIndexIsInvalid" computerName="e5057549a3bc" duration="00:00:00.0000906" startTime="2022-07-12T15:15:44.4067361+00:00" endTime="2022-07-12T15:15:44.4067361+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e680336e-55f5-4daf-ba0c-9f5e924d6bc2" />
+    <UnitTestResult executionId="2d0ec0df-2378-423f-a4f8-8566be763c11" testId="1fb21227-309a-f7b4-7b9c-dbd0e606956b" testName="Engi.Substrate.ParserTests.MetadataV14_Types" computerName="e5057549a3bc" duration="00:00:00.2095214" startTime="2022-07-12T15:15:44.6552218+00:00" endTime="2022-07-12T15:15:44.6552219+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d0ec0df-2378-423f-a4f8-8566be763c11" />
+    <UnitTestResult executionId="73c659f8-2cd7-47fe-8a2d-7a4f7e0090bf" testId="1387449b-9525-8311-5045-6695e049a217" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;0000&quot;, expected: 0)" computerName="e5057549a3bc" duration="00:00:00.0000017" startTime="2022-07-12T15:15:44.3955655+00:00" endTime="2022-07-12T15:15:44.3955655+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73c659f8-2cd7-47fe-8a2d-7a4f7e0090bf" />
+    <UnitTestResult executionId="c1f41b0f-82bc-4200-805c-958b62b070c3" testId="810e0a6f-374c-6e30-6a24-64a473a7d29d" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;fdfdfeff&quot;, expected: -66051)" computerName="e5057549a3bc" duration="00:00:00.0000025" startTime="2022-07-12T15:15:44.4017110+00:00" endTime="2022-07-12T15:15:44.4017110+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1f41b0f-82bc-4200-805c-958b62b070c3" />
+    <UnitTestResult executionId="b0d459ed-937b-4323-9b25-c4411cdc527b" testId="9a7ede67-2bb8-9ea7-526c-3d5110689474" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffffff00&quot;, expected: 16777215)" computerName="e5057549a3bc" duration="00:00:00.0000031" startTime="2022-07-12T15:15:44.4015128+00:00" endTime="2022-07-12T15:15:44.4015129+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0d459ed-937b-4323-9b25-c4411cdc527b" />
+    <UnitTestResult executionId="54494e0f-78c2-41fa-9369-606492638ebe" testId="08b3903a-4b89-5073-d8ac-88e6f0dca568" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;0f0f&quot;, expected: 3855)" computerName="e5057549a3bc" duration="00:00:00.0000018" startTime="2022-07-12T15:15:44.3957107+00:00" endTime="2022-07-12T15:15:44.3957108+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54494e0f-78c2-41fa-9369-606492638ebe" />
+    <UnitTestResult executionId="38932c8a-88f6-4b85-8229-d5accf60a992" testId="242f4528-340d-61f7-32de-cb54b27c051c" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;feffffff&quot;, expected: &quot;1073741823&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000037" startTime="2022-07-12T15:15:44.3958651+00:00" endTime="2022-07-12T15:15:44.3958651+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38932c8a-88f6-4b85-8229-d5accf60a992" />
+    <UnitTestResult executionId="78ccdb52-5cee-4273-a776-32a5addc819b" testId="03f96d74-d5ef-3310-894d-c9fa1e62cb22" testName="Engi.Substrate.ScaleStreamTests.Union_IntBool_Reads(hex: &quot;002a&quot;, expectedIndex: 0, expectedType: typeof(byte), expectedResult: 42)" computerName="e5057549a3bc" duration="00:00:00.0092550" startTime="2022-07-12T15:15:44.3995779+00:00" endTime="2022-07-12T15:15:44.3995780+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78ccdb52-5cee-4273-a776-32a5addc819b" />
+    <UnitTestResult executionId="ed5ec349-3b9f-4030-9eca-54af2894fa10" testId="96942e32-207e-92ec-9a5e-69731bee4c7e" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;feffffff&quot;, expected: 1073741823)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4006601+00:00" endTime="2022-07-12T15:15:44.4006601+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed5ec349-3b9f-4030-9eca-54af2894fa10" />
+    <UnitTestResult executionId="8a506fdd-855b-49c0-a769-f8aabc10cd88" testId="44e59043-a1e8-61cc-b2ad-ba7f050d1667" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;fdff&quot;, expected: 16383)" computerName="e5057549a3bc" duration="00:00:00.0000031" startTime="2022-07-12T15:15:44.4005897+00:00" endTime="2022-07-12T15:15:44.4005897+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a506fdd-855b-49c0-a769-f8aabc10cd88" />
+    <UnitTestResult executionId="6abe768f-8d3f-45f5-8364-29d6b71bdc7b" testId="5297f042-2106-c150-ae48-7be727c1e234" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;33aabbccddeeff00112233445566778899&quot;, expected: &quot;204080457442256950375158822971602942890&quot;)" computerName="e5057549a3bc" duration="00:00:00.0001506" startTime="2022-07-12T15:15:44.3958161+00:00" endTime="2022-07-12T15:15:44.3958162+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6abe768f-8d3f-45f5-8364-29d6b71bdc7b" />
+    <UnitTestResult executionId="f77e66cf-7f3c-4696-933d-04c52db50eae" testId="ccd83ce6-2c36-79ee-4725-d802c417e458" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;0101&quot;, expected: 64)" computerName="e5057549a3bc" duration="00:00:00.0000192" startTime="2022-07-12T15:15:44.4005555+00:00" endTime="2022-07-12T15:15:44.4005555+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f77e66cf-7f3c-4696-933d-04c52db50eae" />
+    <UnitTestResult executionId="4a6f0da8-5ed3-448f-8dad-eaad9eb8e90c" testId="adad50e5-b967-bee5-8b99-3d5b1a58251d" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;a8&quot;, expected: &quot;42&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000075" startTime="2022-07-12T15:15:44.3958405+00:00" endTime="2022-07-12T15:15:44.3958405+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a6f0da8-5ed3-448f-8dad-eaad9eb8e90c" />
+    <UnitTestResult executionId="b6709862-54d1-4a35-8372-4680a8177023" testId="f0a4e836-8b92-8cdb-96bd-0de008661273" testName="Engi.Substrate.ScaleStreamTests.Bool_ReadsFalseBool" computerName="e5057549a3bc" duration="00:00:00.0000316" startTime="2022-07-12T15:15:44.4057680+00:00" endTime="2022-07-12T15:15:44.4057680+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6709862-54d1-4a35-8372-4680a8177023" />
+    <UnitTestResult executionId="1e865297-13cd-434a-a24e-ef389c324b83" testId="08767af3-cf32-a3ae-3a7d-f667843437da" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_ThrowsIfBigInteger" computerName="e5057549a3bc" duration="00:00:00.0001586" startTime="2022-07-12T15:15:44.4057319+00:00" endTime="2022-07-12T15:15:44.4057319+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e865297-13cd-434a-a24e-ef389c324b83" />
+    <UnitTestResult executionId="5ea0cbfe-f972-4b1f-a859-7f9569eecba5" testId="43e0dfa8-4553-77ab-3de9-ec65aa60d82a" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;00000080&quot;, expected: -2147483648)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.4032247+00:00" endTime="2022-07-12T15:15:44.4032247+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ea0cbfe-f972-4b1f-a859-7f9569eecba5" />
+    <UnitTestResult executionId="66bdfe1c-a9b4-4fa8-b18d-e526e9c9df78" testId="fe77ea85-1189-f306-e66f-5f9559140b8a" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;01020304&quot;, expected: 67305985)" computerName="e5057549a3bc" duration="00:00:00.0000027" startTime="2022-07-12T15:15:44.4015433+00:00" endTime="2022-07-12T15:15:44.4015433+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66bdfe1c-a9b4-4fa8-b18d-e526e9c9df78" />
+    <UnitTestResult executionId="336c501b-694c-4211-bf92-480dfe288605" testId="ef10e76d-0d13-306b-796c-d7bc66a2f7a9" testName="Engi.Substrate.KeypairTests.Export" computerName="e5057549a3bc" duration="00:00:00.0021180" startTime="2022-07-12T15:15:44.4305267+00:00" endTime="2022-07-12T15:15:44.4305267+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="336c501b-694c-4211-bf92-480dfe288605">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.</Message>
+          <StackTrace>   at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path) in /source/engi-substrate/Keys/SR25519.cs:line 45
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+   at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed) in /source/engi-substrate/Keys/KeypairFactory.cs:line 42
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist) in /source/engi-substrate/Keys/KeypairFactory.cs:line 33
+   at Engi.Substrate.KeypairTests.Export() in /source/engi-tests/KeypairTests.cs:line 38</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c416aeea-6596-4c48-bf0b-29f6d6f8dd39" testId="02009ef5-d3f7-a557-96ff-b57e31f7dce2" testName="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;0100ffff&quot;, expected: -65535)" computerName="e5057549a3bc" duration="00:00:00.0000018" startTime="2022-07-12T15:15:44.4031932+00:00" endTime="2022-07-12T15:15:44.4031933+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c416aeea-6596-4c48-bf0b-29f6d6f8dd39" />
+    <UnitTestResult executionId="881c0521-c19d-475c-bc40-cd9d59f2ae9e" testId="c8ca7639-0454-2738-b3b2-e311f50661ae" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;03000000ff&quot;, expected: &quot;4278190080&quot;)" computerName="e5057549a3bc" duration="00:00:00.0010730" startTime="2022-07-12T15:15:44.3957650+00:00" endTime="2022-07-12T15:15:44.3957650+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="881c0521-c19d-475c-bc40-cd9d59f2ae9e" />
+    <UnitTestResult executionId="7d232935-8999-49c0-ba3a-d5ca37949021" testId="60784d1a-6950-1933-528e-502429a1352b" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;f0f0f0f0&quot;, expected: 4042322160)" computerName="e5057549a3bc" duration="00:00:00.0000088" startTime="2022-07-12T15:15:44.3978476+00:00" endTime="2022-07-12T15:15:44.3978477+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d232935-8999-49c0-ba3a-d5ca37949021" />
+    <UnitTestResult executionId="3e1b194a-1b08-4510-aba1-dc49f11c4b5f" testId="8b80d808-5465-323b-fe11-f5a9ccb06a1b" testName="Engi.Substrate.ScaleStreamTests.UInt128_ErrorsForShortData" computerName="e5057549a3bc" duration="00:00:00.0001061" startTime="2022-07-12T15:15:44.4058050+00:00" endTime="2022-07-12T15:15:44.4058050+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e1b194a-1b08-4510-aba1-dc49f11c4b5f" />
+    <UnitTestResult executionId="66f9d26a-3730-47e4-9070-6c2ec13e6e83" testId="c80699c1-9ab0-db1d-dc69-7acf337dccea" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;00&quot;, expected: 0)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4007167+00:00" endTime="2022-07-12T15:15:44.4007168+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66f9d26a-3730-47e4-9070-6c2ec13e6e83" />
+    <UnitTestResult executionId="5ea57906-05db-4f5a-a33a-e923a013d8dd" testId="f6274338-0df3-fd73-be2c-eb160c514882" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ff000000&quot;, expected: 255)" computerName="e5057549a3bc" duration="00:00:00.0000019" startTime="2022-07-12T15:15:44.4016312+00:00" endTime="2022-07-12T15:15:44.4016312+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ea57906-05db-4f5a-a33a-e923a013d8dd" />
+    <UnitTestResult executionId="e1f2fd7f-2a90-4e99-98a3-35ca6d4aa498" testId="dfc912be-021f-cef5-426e-d309878ad2b6" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;000000ff&quot;, expected: 4278190080)" computerName="e5057549a3bc" duration="00:00:00.0000027" startTime="2022-07-12T15:15:44.3978750+00:00" endTime="2022-07-12T15:15:44.3978750+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1f2fd7f-2a90-4e99-98a3-35ca6d4aa498" />
+    <UnitTestResult executionId="cc0b767c-f593-4451-bb60-e8b48c267502" testId="2d6b5aad-2448-9abb-91df-07349bd2706e" testName="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;00ff&quot;, expected: 65280)" computerName="e5057549a3bc" duration="00:00:00.0000043" startTime="2022-07-12T15:15:44.3435875+00:00" endTime="2022-07-12T15:15:44.3435875+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0b767c-f593-4451-bb60-e8b48c267502" />
+    <UnitTestResult executionId="2e75dc03-96bc-4d40-b0e4-5d58c14c97fd" testId="6287b33e-e3dc-8eef-306b-04235ad4f3a7" testName="Engi.Substrate.ParserTests.MetadataV14_Metadata" computerName="e5057549a3bc" duration="00:00:00.1303173" startTime="2022-07-12T15:15:44.4452364+00:00" endTime="2022-07-12T15:15:44.4452365+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e75dc03-96bc-4d40-b0e4-5d58c14c97fd" />
+    <UnitTestResult executionId="8f02779a-56c1-48e2-9547-2eb5afdba05a" testId="009a15e0-b6d1-06cc-8254-a7b2a737c675" testName="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;00&quot;, expected: &quot;0&quot;)" computerName="e5057549a3bc" duration="00:00:00.0000018" startTime="2022-07-12T15:15:44.3976685+00:00" endTime="2022-07-12T15:15:44.3976686+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f02779a-56c1-48e2-9547-2eb5afdba05a" />
+    <UnitTestResult executionId="42668482-a58a-4656-a6ba-4636938296a6" testId="98b01c62-a7fa-c50f-d819-ca09b23fcebb" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;ffffff00&quot;, expected: 16777215)" computerName="e5057549a3bc" duration="00:00:00.0000032" startTime="2022-07-12T15:15:44.3995085+00:00" endTime="2022-07-12T15:15:44.3995085+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42668482-a58a-4656-a6ba-4636938296a6" />
+    <UnitTestResult executionId="0c090477-39a8-438e-9594-78fe311a1cea" testId="bcd4ecbe-05e7-250c-d2d5-51cacf4a1b2c" testName="Engi.Substrate.ScaleStreamTests.String_Reads" computerName="e5057549a3bc" duration="00:00:00.0000334" startTime="2022-07-12T15:15:44.3996715+00:00" endTime="2022-07-12T15:15:44.3996715+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c090477-39a8-438e-9594-78fe311a1cea" />
+    <UnitTestResult executionId="32bce5db-8a0a-44b3-9fe8-da61edeb2055" testId="33d21b85-b9f1-a2da-7a55-d6a53ef12882" testName="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;fc&quot;, expected: 63)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4006371+00:00" endTime="2022-07-12T15:15:44.4006371+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="32bce5db-8a0a-44b3-9fe8-da61edeb2055" />
+    <UnitTestResult executionId="5d91baaf-1cfc-4d3a-9dd2-4e8d83318b9e" testId="c55a5710-9214-71cd-bde1-03225ed0420f" testName="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsExistingTrueBool" computerName="e5057549a3bc" duration="00:00:00.0021720" startTime="2022-07-12T15:15:44.4032968+00:00" endTime="2022-07-12T15:15:44.4032969+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d91baaf-1cfc-4d3a-9dd2-4e8d83318b9e" />
+    <UnitTestResult executionId="7f13da1e-e7b6-411f-95ab-277aa6e3ba85" testId="3ccdc37b-3c09-388f-097d-3c3c10fb48a6" testName="Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword" computerName="e5057549a3bc" duration="00:00:00.0679988" startTime="2022-07-12T15:15:44.4155267+00:00" endTime="2022-07-12T15:15:44.4155267+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f13da1e-e7b6-411f-95ab-277aa6e3ba85">
+      <Output>
+        <ErrorInfo>
+          <Message>System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.</Message>
+          <StackTrace>   at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path) in /source/engi-substrate/Keys/SR25519.cs:line 45
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+   at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed) in /source/engi-substrate/Keys/KeypairFactory.cs:line 42
+   at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist) in /source/engi-substrate/Keys/KeypairFactory.cs:line 33
+   at Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword() in /source/engi-tests/KeypairTests.cs:line 25</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="127018ca-d7e2-46fb-9922-fb97035df6ad" testId="dec2421b-4a94-e2ce-aa84-675e40a9b192" testName="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffffff7f&quot;, expected: 2147483647)" computerName="e5057549a3bc" duration="00:00:00.0000020" startTime="2022-07-12T15:15:44.4015799+00:00" endTime="2022-07-12T15:15:44.4015799+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="127018ca-d7e2-46fb-9922-fb97035df6ad" />
+    <UnitTestResult executionId="6c735607-0569-4f35-ac86-1a0f035028f0" testId="9d7f5952-3714-7d64-a87f-d86f5fd934a0" testName="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;ff000000&quot;, expected: 255)" computerName="e5057549a3bc" duration="00:00:00.0000148" startTime="2022-07-12T15:15:44.3977296+00:00" endTime="2022-07-12T15:15:44.3977296+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c735607-0569-4f35-ac86-1a0f035028f0" />
+    <UnitTestResult executionId="610fdadc-688f-484f-a73a-018fb11c74df" testId="1a239c58-5903-c97d-cd77-2c142c635f0a" testName="Engi.Substrate.ScaleStreamTests.Bool_ReadsTrueBool" computerName="e5057549a3bc" duration="00:00:00.0001772" startTime="2022-07-12T15:15:44.3996413+00:00" endTime="2022-07-12T15:15:44.3996414+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="610fdadc-688f-484f-a73a-018fb11c74df" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;f00f&quot;, expected: 4080)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="550c9626-3b77-0ae1-a48e-4f33751de489">
+      <Execution id="551df824-2891-4cc7-b8fa-448900d60b3a" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0300000040&quot;, expected: &quot;1073741824&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="cc1d7564-250b-13ef-4f5c-ebd2437e88e2">
+      <Execution id="2fe286e6-2585-49e2-a4f8-1021ce5f0050" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Reads" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="1a140407-d959-d182-a540-b67db0f34caf">
+      <Execution id="e027465f-c8ff-46ff-8c09-61054a822448" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;0000&quot;, expected: 0)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="1387449b-9525-8311-5045-6695e049a217">
+      <Execution id="73c659f8-2cd7-47fe-8a2d-7a4f7e0090bf" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;01020304&quot;, expected: 67305985)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="fe77ea85-1189-f306-e66f-5f9559140b8a">
+      <Execution id="66bdfe1c-a9b4-4fa8-b18d-e526e9c9df78" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt128_ReadsWithZeroPrefix" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="ee203794-3b8d-c8b0-dc2f-e18091ecc98b">
+      <Execution id="68ac5e77-d023-4daf-bd66-026991eacccb" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt128_ReadsWithZeroPrefix" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_Reads" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="d710074d-969d-2874-6f33-94bc3e23bdea">
+      <Execution id="1f5bb17c-2bf1-4d49-b110-8328c004001f" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;fdff&quot;, expected: &quot;16383&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="769b4a52-639b-204e-a97d-bb09df6a5240">
+      <Execution id="e6caab34-87a9-473c-b424-834c84ed13e2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;0101&quot;, expected: 64)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="ccd83ce6-2c36-79ee-4725-d802c417e458">
+      <Execution id="f77e66cf-7f3c-4696-933d-04c52db50eae" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0700ffffffff&quot;, expected: &quot;1099511627520&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="77a840a5-ba95-7e95-645b-909863644d39">
+      <Execution id="7257bd04-fd92-4fce-bf6c-2cac824dadc9" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;1501&quot;, expected: 69)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="636add63-32dc-bc44-8eb2-5fa848035055">
+      <Execution id="f2dbb5b9-afc3-45fa-bcdb-1fda640c3888" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;04&quot;, expected: 1)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="1dc38cfe-8dd2-306a-8f62-602b0cb07d69">
+      <Execution id="5397e81c-45de-420f-9948-41b75c4eb94b" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00060000&quot;, expected: 1536)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9decc1c2-9094-7842-bcff-f49a6c76b9d1">
+      <Execution id="08bc3329-d5aa-44f3-aa7b-e90ae9a4937f" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.HeaderTests.ComputeHash" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="0eb6525c-48d6-c8ac-1ed8-6ffd73093eed">
+      <Execution id="defa9e6e-3183-4020-9b4b-41815ba3d952" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.HeaderTests" name="ComputeHash" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;ffffff00&quot;, expected: 16777215)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="98b01c62-a7fa-c50f-d819-ca09b23fcebb">
+      <Execution id="42668482-a58a-4656-a6ba-4636938296a6" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffff0000&quot;, expected: 65535)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="66f2c04c-8fa4-9f85-f673-78630bfb6ae4">
+      <Execution id="ce712cf1-93b7-4c62-bbd3-b94d23e35955" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;0f0f&quot;, expected: 3855)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="08b3903a-4b89-5073-d8ac-88e6f0dca568">
+      <Execution id="54494e0f-78c2-41fa-9369-606492638ebe" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_ErrorsForShortData" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="ca60c8bb-6469-e3db-0bf9-c0b088b93cd6">
+      <Execution id="3f681dd3-a5c9-452a-9915-701fc05f2507" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_ErrorsForShortData" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Union_ThrowsWhenIndexIsInvalid" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="53c01412-196f-545f-a616-95608b04a4ba">
+      <Execution id="e680336e-55f5-4daf-ba0c-9f5e924d6bc2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Union_ThrowsWhenIndexIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Union_IntBool_Reads(hex: &quot;002a&quot;, expectedIndex: 0, expectedType: typeof(byte), expectedResult: 42)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="03f96d74-d5ef-3310-894d-c9fa1e62cb22">
+      <Execution id="78ccdb52-5cee-4273-a776-32a5addc819b" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Union_IntBool_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt64_Reads" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="b093fc8f-ff12-0844-4561-c2216eadad56">
+      <Execution id="176dd90e-0049-4cbe-86aa-2238684d1407" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt64_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00030000&quot;, expected: 768)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c8cd5618-3a45-2e6d-08ea-489cb9b2841a">
+      <Execution id="c28922af-fb6d-47b3-9ffd-576baa20d22e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;0f0f0f0f&quot;, expected: 252645135)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="a782c25e-cf2e-b30e-e481-d96cd4c9d62e">
+      <Execution id="059750f5-d604-4a84-b87e-fccf7d8b16c4" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;04&quot;, expected: &quot;1&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="232e3b24-5ffd-1d3d-f211-6e75a423c831">
+      <Execution id="dbb58706-857f-46a1-b7ae-15dfcd1d302f" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffffff00&quot;, expected: 16777215)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9a7ede67-2bb8-9ea7-526c-3d5110689474">
+      <Execution id="b0d459ed-937b-4323-9b25-c4411cdc527b" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt128_Reads" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="4373995e-291d-c0c0-92b0-f63377fe6425">
+      <Execution id="5bb39396-33d2-413f-817d-6a42d651f31f" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt128_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Bool_ErrorIfInvalidValue" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="5c99cf5f-985d-9048-8ea3-14dc30a5e4cd">
+      <Execution id="ff50df15-edfc-41f9-a18e-72492eae3171" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Bool_ErrorIfInvalidValue" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;00ff&quot;, expected: 65280)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="2d6b5aad-2448-9abb-91df-07349bd2706e">
+      <Execution id="cc0b767c-f593-4451-bb60-e8b48c267502" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;ff000000&quot;, expected: 255)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9d7f5952-3714-7d64-a87f-d86f5fd934a0">
+      <Execution id="6c735607-0569-4f35-ac86-1a0f035028f0" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;01000000&quot;, expected: 1)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9281a529-ca17-ccae-c1da-b9658b427358">
+      <Execution id="d5857142-15db-410e-b223-daf01d21542e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsExistingFalseBool" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="7a3ec59c-b225-fd69-9a2d-0840bdae24ae">
+      <Execution id="95c10917-43fd-40a6-83b1-5ccd0ddf5aca" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="OptionalBool_ReadsExistingFalseBool" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;fdff&quot;, expected: 16383)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="44e59043-a1e8-61cc-b2ad-ba7f050d1667">
+      <Execution id="8a506fdd-855b-49c0-a769-f8aabc10cd88" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_ErrorsForShortData" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="55dcd510-aecb-e832-adda-3fa7062fd28c">
+      <Execution id="1df83c32-f649-435e-87d0-78c3f2736312" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_ErrorsForShortData" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ParserTests.MetadataV14_Metadata" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="6287b33e-e3dc-8eef-306b-04235ad4f3a7">
+      <Execution id="2e75dc03-96bc-4d40-b0e4-5d58c14c97fd" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ParserTests" name="MetadataV14_Metadata" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;f0f0f0f0&quot;, expected: 4042322160)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="60784d1a-6950-1933-528e-502429a1352b">
+      <Execution id="7d232935-8999-49c0-ba3a-d5ca37949021" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;00&quot;, expected: &quot;0&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="009a15e0-b6d1-06cc-8254-a7b2a737c675">
+      <Execution id="8f02779a-56c1-48e2-9547-2eb5afdba05a" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;ffff&quot;, expected: 65535)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="e0ca3fef-b483-7520-9ce9-48e3303362f5">
+      <Execution id="4450753e-10ff-4022-abb5-1d453c9930fa" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt128_ErrorsForShortData" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="8b80d808-5465-323b-fe11-f5a9ccb06a1b">
+      <Execution id="3e1b194a-1b08-4510-aba1-dc49f11c4b5f" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt128_ErrorsForShortData" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;030000ffff&quot;, expected: &quot;4294901760&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="02d65b2b-548b-59c1-b041-fc28b8e942fd">
+      <Execution id="65922af5-6be5-4e0f-a061-f294a6f7811c" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;feffffff&quot;, expected: 1073741823)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="96942e32-207e-92ec-9a5e-69731bee4c7e">
+      <Execution id="ed5ec349-3b9f-4030-9eca-54af2894fa10" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;f0f0&quot;, expected: 61680)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="75964e3b-3569-01fc-e23c-0e5bbbf16912">
+      <Execution id="70d42c01-6098-45ad-9d34-fd028b2f7cf2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;0100ffff&quot;, expected: -65535)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="02009ef5-d3f7-a557-96ff-b57e31f7dce2">
+      <Execution id="c416aeea-6596-4c48-bf0b-29f6d6f8dd39" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;fc&quot;, expected: 63)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="33d21b85-b9f1-a2da-7a55-d6a53ef12882">
+      <Execution id="32bce5db-8a0a-44b3-9fe8-da61edeb2055" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;ffffffff&quot;, expected: -1)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9528eb0d-b236-05bf-5b1e-d5142c6ecff2">
+      <Execution id="0b003522-7401-4748-8b0b-9df424b852d6" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="9445f183-bff2-ff58-3d33-753868952577">
+      <Execution id="bac785e9-73b9-4e95-8830-1e8c788c91a9" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.KeypairTests" name="Keyring_CreateFromMnemonic_NoPassword" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Enum_ErrorsWithUnknownEnumValue" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="2b1d649f-fe93-c17f-d284-0624e7dad5c8">
+      <Execution id="d33de9e4-ff07-4507-82f5-69bac7e8b664" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Enum_ErrorsWithUnknownEnumValue" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;07ffffffffff&quot;, expected: &quot;1099511627775&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="b5913daa-f9ac-5372-1592-648ecfde15c6">
+      <Execution id="131ad06d-9868-44b8-a714-7bd0863c2d2e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Bool_ReadsFalseBool" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f0a4e836-8b92-8cdb-96bd-0de008661273">
+      <Execution id="b6709862-54d1-4a35-8372-4680a8177023" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Bool_ReadsFalseBool" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;fc&quot;, expected: &quot;63&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f8fb0aa3-d2e0-3ff2-67bf-a01dd5cfe5c7">
+      <Execution id="770df3ef-8d5e-4151-ac41-8e66e83d72f2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;a8&quot;, expected: &quot;42&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="adad50e5-b967-bee5-8b99-3d5b1a58251d">
+      <Execution id="4a6f0da8-5ed3-448f-8dad-eaad9eb8e90c" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;0000ff00&quot;, expected: 16711680)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="a1bfc000-9ac3-3fe1-29f0-fe0d23f00404">
+      <Execution id="d748061f-b3e8-47ad-93cb-ed4bfd4bb6e9" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;02000100&quot;, expected: &quot;16384&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="d16313bc-4500-be5a-2792-bd1d674c9f4e">
+      <Execution id="02f4f806-93bf-447f-bf10-1e8d013750cd" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.OptionalBool_ErrorsIfInvalidValue" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="5922b30e-faf3-fc29-3a0e-2117af7c2e7d">
+      <Execution id="a6f79a4b-8d9d-4cdf-8175-d84a9995d5fe" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="OptionalBool_ErrorsIfInvalidValue" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;000000ff&quot;, expected: 4278190080)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="dfc912be-021f-cef5-426e-d309878ad2b6">
+      <Execution id="e1f2fd7f-2a90-4e99-98a3-35ca6d4aa498" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0370605040&quot;, expected: &quot;1079009392&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c4ba2307-b703-af72-52e5-b32809b8dfbe">
+      <Execution id="114f52d0-b4f4-4250-b26f-c142edb8b39a" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;fdfdfeff&quot;, expected: -66051)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="810e0a6f-374c-6e30-6a24-64a473a7d29d">
+      <Execution id="c1f41b0f-82bc-4200-805c-958b62b070c3" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_ThrowsIfBigInteger" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="08767af3-cf32-a3ae-3a7d-f667843437da">
+      <Execution id="1e865297-13cd-434a-a24e-ef389c324b83" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_ThrowsIfBigInteger" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ErrorsForShortData" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="4c717678-b433-bcf7-0151-dd93d5ef10ce">
+      <Execution id="8275e5c1-8ce9-4b3b-afef-9a42655f1fa7" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ErrorsForShortData" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.Integration.HealthTest.Healthy" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f74765fe-ea15-924b-ef66-eaf9cd8c57d3">
+      <Execution id="4cb8eec4-810a-4fb2-b3ac-69e0f90971e2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.Integration.HealthTest" name="Healthy" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ffffff7f&quot;, expected: 2147483647)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="dec2421b-4a94-e2ce-aa84-675e40a9b192">
+      <Execution id="127018ca-d7e2-46fb-9922-fb97035df6ad" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;00000000&quot;, expected: 0)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="43fe9a5b-7e25-a7d0-89bf-b18c60664a82">
+      <Execution id="8ba30f6c-3e78-414a-8b14-983b13ca0e8a" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Bool_ReadsTrueBool" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="1a239c58-5903-c97d-cd77-2c142c635f0a">
+      <Execution id="610fdadc-688f-484f-a73a-018fb11c74df" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Bool_ReadsTrueBool" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt16_Read(hex: &quot;ff00&quot;, expected: 255)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f723d29f-d766-8d7f-fbdd-75c241caecc2">
+      <Execution id="e22f5406-8bb9-413c-8d53-0fa5ba48f10e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt16_Read" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsNoBool" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="effb8b49-1bc9-1aae-f5f5-f2478a0ce6b9">
+      <Execution id="361b6e97-3ffd-4b03-9aa5-87e314e82f87" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="OptionalBool_ReadsNoBool" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;02000100&quot;, expected: 16384)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="0ee1bbce-ce23-2c00-2e42-a8da03e95aa3">
+      <Execution id="183bd03b-20f7-469f-8c0f-a7df5180dbd4" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;fefeffff&quot;, expected: -258)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="b425b854-9d91-ab35-5f39-7b203b9f7506">
+      <Execution id="f7dbc88c-616b-440d-ad0c-2d0e9eebc1c2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.String_Reads" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="bcd4ecbe-05e7-250c-d2d5-51cacf4a1b2c">
+      <Execution id="0c090477-39a8-438e-9594-78fe311a1cea" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="String_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="3ccdc37b-3c09-388f-097d-3c3c10fb48a6">
+      <Execution id="7f13da1e-e7b6-411f-95ab-277aa6e3ba85" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.KeypairTests" name="Keyring_CreateFromMnemonic_WithKeyPassword" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00000000&quot;, expected: 0)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f941a7c9-7621-4e2e-387e-cbaf9a8d93b4">
+      <Execution id="a951bbd0-49ac-4938-8bbd-ecb57d21f3df" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.OptionalBool_ReadsExistingTrueBool" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c55a5710-9214-71cd-bde1-03225ed0420f">
+      <Execution id="5d91baaf-1cfc-4d3a-9dd2-4e8d83318b9e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="OptionalBool_ReadsExistingTrueBool" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;1501&quot;, expected: &quot;69&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="45210752-bcfe-4781-3526-b9395d5cd7c8">
+      <Execution id="76a0a022-5246-47b4-89f2-4aa9e347b85e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;03ffffffff&quot;, expected: &quot;4294967295&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="8e362556-6590-853e-7bfd-9fc189b676a6">
+      <Execution id="e9d314f8-d65a-4a12-a41b-320479b1c817" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;0101&quot;, expected: &quot;64&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="5bf94dca-1bb7-9089-7663-a5098ee11a46">
+      <Execution id="8d7354d2-5a42-40dd-9d6a-49cc1d1469eb" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;03000000ff&quot;, expected: &quot;4278190080&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c8ca7639-0454-2738-b3b2-e311f50661ae">
+      <Execution id="881c0521-c19d-475c-bc40-cd9d59f2ae9e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Union_IntBool_Reads(hex: &quot;0101&quot;, expectedIndex: 1, expectedType: typeof(bool), expectedResult: True)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="d51fd951-5911-6077-f6ad-a1b9a38aa873">
+      <Execution id="c47ab46b-582e-41b9-b855-b5f88aff7d0b" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Union_IntBool_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;9cffffff&quot;, expected: -100)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="daff69d2-3050-bf4b-9f97-d9390bdb6cec">
+      <Execution id="d62b69b1-72a7-43b3-baf4-50efd2bd32f2" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;00ff0000&quot;, expected: 65280)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="fe634cc4-ab69-77bc-ab4a-0d2e63cad045">
+      <Execution id="a14b80b2-9ea0-47de-b107-4427e1e7f11e" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ParserTests.MetadataV14_Types" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="1fb21227-309a-f7b4-7b9c-dbd0e606956b">
+      <Execution id="2d0ec0df-2378-423f-a4f8-8566be763c11" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ParserTests" name="MetadataV14_Types" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Ctor_ErrorsIfNoInput" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="6858e9f2-5473-e261-c81f-898f98dac588">
+      <Execution id="8aebb611-14cf-4b19-9922-64246de37ac0" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Ctor_ErrorsIfNoInput" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt32_ReadsAllCases(hex: &quot;7d010000&quot;, expected: 381)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c9d1cd07-f9e1-eaf0-8124-eaab9e1088f4">
+      <Execution id="24594e19-6bcf-4904-bc10-f395f42f7acf" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt32_ReadsAllCases" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Negative(hex: &quot;00000080&quot;, expected: -2147483648)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="43e0dfa8-4553-77ab-3de9-ec65aa60d82a">
+      <Execution id="5ea0cbfe-f972-4b1f-a859-7f9569eecba5" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Negative" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;00&quot;, expected: 0)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="c80699c1-9ab0-db1d-dc69-7acf337dccea">
+      <Execution id="66f9d26a-3730-47e4-9070-6c2ec13e6e83" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.List_ReadsUInt16" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="4d888832-3e24-d342-ebe1-429e72b644a7">
+      <Execution id="720fd15b-07fe-40ec-b9a4-4bdc6d1d8593" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="List_ReadsUInt16" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Int32_Positive(hex: &quot;ff000000&quot;, expected: 255)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f6274338-0df3-fd73-be2c-eb160c514882">
+      <Execution id="5ea57906-05db-4f5a-a33a-e923a013d8dd" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Int32_Positive" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.KeypairTests.Export_WithPassword" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="f4189c78-aabf-361e-cf7f-1ab19f4bc38c">
+      <Execution id="73261a76-f83f-42c3-a843-05baa4b85397" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.KeypairTests" name="Export_WithPassword" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.UInt64_ReadsWithZeroPrefix" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="e1fbd1b3-6a9e-a887-1de4-7a9274ade0b4">
+      <Execution id="378d6e55-b553-4ec9-9e7a-65fb9b2c8fb5" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="UInt64_ReadsWithZeroPrefix" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.KeypairTests.Export" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="ef10e76d-0d13-306b-796c-d7bc66a2f7a9">
+      <Execution id="336c501b-694c-4211-bf92-480dfe288605" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.KeypairTests" name="Export" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactInteger_Reads(hex: &quot;a8&quot;, expected: 42)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="8e2441e7-a03f-da3c-b26a-26e96f455a1e">
+      <Execution id="1c782532-da6d-4926-be9d-1e4ade3d10bd" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;feffffff&quot;, expected: &quot;1073741823&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="242f4528-340d-61f7-32de-cb54b27c051c">
+      <Execution id="38932c8a-88f6-4b85-8229-d5accf60a992" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.Enum_ReadValues" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="0d301ad2-4895-0f20-ba65-b1c839b19529">
+      <Execution id="a8046108-a0b0-4200-8c7f-aca5d5dd319c" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="Enum_ReadValues" />
+    </UnitTest>
+    <UnitTest name="Engi.Substrate.ScaleStreamTests.CompactBigInteger_Reads(hex: &quot;33aabbccddeeff00112233445566778899&quot;, expected: &quot;204080457442256950375158822971602942890&quot;)" storage="/source/engi-tests/bin/release/net6.0/engi.substrate.tests.dll" id="5297f042-2106-c150-ae48-7be727c1e234">
+      <Execution id="6abe768f-8d3f-45f5-8364-29d6b71bdc7b" />
+      <TestMethod codeBase="/source/engi-tests/bin/release/net6.0/Engi.Substrate.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Engi.Substrate.ScaleStreamTests" name="CompactBigInteger_Reads" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e0ca3fef-b483-7520-9ce9-48e3303362f5" executionId="4450753e-10ff-4022-abb5-1d453c9930fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55dcd510-aecb-e832-adda-3fa7062fd28c" executionId="1df83c32-f649-435e-87d0-78c3f2736312" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4ba2307-b703-af72-52e5-b32809b8dfbe" executionId="114f52d0-b4f4-4250-b26f-c142edb8b39a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca60c8bb-6469-e3db-0bf9-c0b088b93cd6" executionId="3f681dd3-a5c9-452a-9915-701fc05f2507" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9decc1c2-9094-7842-bcff-f49a6c76b9d1" executionId="08bc3329-d5aa-44f3-aa7b-e90ae9a4937f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45210752-bcfe-4781-3526-b9395d5cd7c8" executionId="76a0a022-5246-47b4-89f2-4aa9e347b85e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="effb8b49-1bc9-1aae-f5f5-f2478a0ce6b9" executionId="361b6e97-3ffd-4b03-9aa5-87e314e82f87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02d65b2b-548b-59c1-b041-fc28b8e942fd" executionId="65922af5-6be5-4e0f-a061-f294a6f7811c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a3ec59c-b225-fd69-9a2d-0840bdae24ae" executionId="95c10917-43fd-40a6-83b1-5ccd0ddf5aca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5913daa-f9ac-5372-1592-648ecfde15c6" executionId="131ad06d-9868-44b8-a714-7bd0863c2d2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66f2c04c-8fa4-9f85-f673-78630bfb6ae4" executionId="ce712cf1-93b7-4c62-bbd3-b94d23e35955" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4373995e-291d-c0c0-92b0-f63377fe6425" executionId="5bb39396-33d2-413f-817d-6a42d651f31f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a140407-d959-d182-a540-b67db0f34caf" executionId="e027465f-c8ff-46ff-8c09-61054a822448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b1d649f-fe93-c17f-d284-0624e7dad5c8" executionId="d33de9e4-ff07-4507-82f5-69bac7e8b664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="769b4a52-639b-204e-a97d-bb09df6a5240" executionId="e6caab34-87a9-473c-b424-834c84ed13e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee203794-3b8d-c8b0-dc2f-e18091ecc98b" executionId="68ac5e77-d023-4daf-bd66-026991eacccb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b093fc8f-ff12-0844-4561-c2216eadad56" executionId="176dd90e-0049-4cbe-86aa-2238684d1407" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b425b854-9d91-ab35-5f39-7b203b9f7506" executionId="f7dbc88c-616b-440d-ad0c-2d0e9eebc1c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4189c78-aabf-361e-cf7f-1ab19f4bc38c" executionId="73261a76-f83f-42c3-a843-05baa4b85397" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5922b30e-faf3-fc29-3a0e-2117af7c2e7d" executionId="a6f79a4b-8d9d-4cdf-8175-d84a9995d5fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e2441e7-a03f-da3c-b26a-26e96f455a1e" executionId="1c782532-da6d-4926-be9d-1e4ade3d10bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dc38cfe-8dd2-306a-8f62-602b0cb07d69" executionId="5397e81c-45de-420f-9948-41b75c4eb94b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d710074d-969d-2874-6f33-94bc3e23bdea" executionId="1f5bb17c-2bf1-4d49-b110-8328c004001f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc1d7564-250b-13ef-4f5c-ebd2437e88e2" executionId="2fe286e6-2585-49e2-a4f8-1021ce5f0050" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f941a7c9-7621-4e2e-387e-cbaf9a8d93b4" executionId="a951bbd0-49ac-4938-8bbd-ecb57d21f3df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e362556-6590-853e-7bfd-9fc189b676a6" executionId="e9d314f8-d65a-4a12-a41b-320479b1c817" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bf94dca-1bb7-9089-7663-a5098ee11a46" executionId="8d7354d2-5a42-40dd-9d6a-49cc1d1469eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9445f183-bff2-ff58-3d33-753868952577" executionId="bac785e9-73b9-4e95-8830-1e8c788c91a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8fb0aa3-d2e0-3ff2-67bf-a01dd5cfe5c7" executionId="770df3ef-8d5e-4151-ac41-8e66e83d72f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9d1cd07-f9e1-eaf0-8124-eaab9e1088f4" executionId="24594e19-6bcf-4904-bc10-f395f42f7acf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43fe9a5b-7e25-a7d0-89bf-b18c60664a82" executionId="8ba30f6c-3e78-414a-8b14-983b13ca0e8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d16313bc-4500-be5a-2792-bd1d674c9f4e" executionId="02f4f806-93bf-447f-bf10-1e8d013750cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe634cc4-ab69-77bc-ab4a-0d2e63cad045" executionId="a14b80b2-9ea0-47de-b107-4427e1e7f11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daff69d2-3050-bf4b-9f97-d9390bdb6cec" executionId="d62b69b1-72a7-43b3-baf4-50efd2bd32f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6858e9f2-5473-e261-c81f-898f98dac588" executionId="8aebb611-14cf-4b19-9922-64246de37ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77a840a5-ba95-7e95-645b-909863644d39" executionId="7257bd04-fd92-4fce-bf6c-2cac824dadc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9281a529-ca17-ccae-c1da-b9658b427358" executionId="d5857142-15db-410e-b223-daf01d21542e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1bfc000-9ac3-3fe1-29f0-fe0d23f00404" executionId="d748061f-b3e8-47ad-93cb-ed4bfd4bb6e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="232e3b24-5ffd-1d3d-f211-6e75a423c831" executionId="dbb58706-857f-46a1-b7ae-15dfcd1d302f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f74765fe-ea15-924b-ef66-eaf9cd8c57d3" executionId="4cb8eec4-810a-4fb2-b3ac-69e0f90971e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="636add63-32dc-bc44-8eb2-5fa848035055" executionId="f2dbb5b9-afc3-45fa-bcdb-1fda640c3888" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75964e3b-3569-01fc-e23c-0e5bbbf16912" executionId="70d42c01-6098-45ad-9d34-fd028b2f7cf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9528eb0d-b236-05bf-5b1e-d5142c6ecff2" executionId="0b003522-7401-4748-8b0b-9df424b852d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a782c25e-cf2e-b30e-e481-d96cd4c9d62e" executionId="059750f5-d604-4a84-b87e-fccf7d8b16c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d301ad2-4895-0f20-ba65-b1c839b19529" executionId="a8046108-a0b0-4200-8c7f-aca5d5dd319c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d888832-3e24-d342-ebe1-429e72b644a7" executionId="720fd15b-07fe-40ec-b9a4-4bdc6d1d8593" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f723d29f-d766-8d7f-fbdd-75c241caecc2" executionId="e22f5406-8bb9-413c-8d53-0fa5ba48f10e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c717678-b433-bcf7-0151-dd93d5ef10ce" executionId="8275e5c1-8ce9-4b3b-afef-9a42655f1fa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c99cf5f-985d-9048-8ea3-14dc30a5e4cd" executionId="ff50df15-edfc-41f9-a18e-72492eae3171" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ee1bbce-ce23-2c00-2e42-a8da03e95aa3" executionId="183bd03b-20f7-469f-8c0f-a7df5180dbd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8cd5618-3a45-2e6d-08ea-489cb9b2841a" executionId="c28922af-fb6d-47b3-9ffd-576baa20d22e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0eb6525c-48d6-c8ac-1ed8-6ffd73093eed" executionId="defa9e6e-3183-4020-9b4b-41815ba3d952" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1fbd1b3-6a9e-a887-1de4-7a9274ade0b4" executionId="378d6e55-b553-4ec9-9e7a-65fb9b2c8fb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="550c9626-3b77-0ae1-a48e-4f33751de489" executionId="551df824-2891-4cc7-b8fa-448900d60b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d51fd951-5911-6077-f6ad-a1b9a38aa873" executionId="c47ab46b-582e-41b9-b855-b5f88aff7d0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53c01412-196f-545f-a616-95608b04a4ba" executionId="e680336e-55f5-4daf-ba0c-9f5e924d6bc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1fb21227-309a-f7b4-7b9c-dbd0e606956b" executionId="2d0ec0df-2378-423f-a4f8-8566be763c11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1387449b-9525-8311-5045-6695e049a217" executionId="73c659f8-2cd7-47fe-8a2d-7a4f7e0090bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="810e0a6f-374c-6e30-6a24-64a473a7d29d" executionId="c1f41b0f-82bc-4200-805c-958b62b070c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a7ede67-2bb8-9ea7-526c-3d5110689474" executionId="b0d459ed-937b-4323-9b25-c4411cdc527b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08b3903a-4b89-5073-d8ac-88e6f0dca568" executionId="54494e0f-78c2-41fa-9369-606492638ebe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="242f4528-340d-61f7-32de-cb54b27c051c" executionId="38932c8a-88f6-4b85-8229-d5accf60a992" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03f96d74-d5ef-3310-894d-c9fa1e62cb22" executionId="78ccdb52-5cee-4273-a776-32a5addc819b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96942e32-207e-92ec-9a5e-69731bee4c7e" executionId="ed5ec349-3b9f-4030-9eca-54af2894fa10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44e59043-a1e8-61cc-b2ad-ba7f050d1667" executionId="8a506fdd-855b-49c0-a769-f8aabc10cd88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5297f042-2106-c150-ae48-7be727c1e234" executionId="6abe768f-8d3f-45f5-8364-29d6b71bdc7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccd83ce6-2c36-79ee-4725-d802c417e458" executionId="f77e66cf-7f3c-4696-933d-04c52db50eae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adad50e5-b967-bee5-8b99-3d5b1a58251d" executionId="4a6f0da8-5ed3-448f-8dad-eaad9eb8e90c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a4e836-8b92-8cdb-96bd-0de008661273" executionId="b6709862-54d1-4a35-8372-4680a8177023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08767af3-cf32-a3ae-3a7d-f667843437da" executionId="1e865297-13cd-434a-a24e-ef389c324b83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43e0dfa8-4553-77ab-3de9-ec65aa60d82a" executionId="5ea0cbfe-f972-4b1f-a859-7f9569eecba5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe77ea85-1189-f306-e66f-5f9559140b8a" executionId="66bdfe1c-a9b4-4fa8-b18d-e526e9c9df78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef10e76d-0d13-306b-796c-d7bc66a2f7a9" executionId="336c501b-694c-4211-bf92-480dfe288605" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02009ef5-d3f7-a557-96ff-b57e31f7dce2" executionId="c416aeea-6596-4c48-bf0b-29f6d6f8dd39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8ca7639-0454-2738-b3b2-e311f50661ae" executionId="881c0521-c19d-475c-bc40-cd9d59f2ae9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60784d1a-6950-1933-528e-502429a1352b" executionId="7d232935-8999-49c0-ba3a-d5ca37949021" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b80d808-5465-323b-fe11-f5a9ccb06a1b" executionId="3e1b194a-1b08-4510-aba1-dc49f11c4b5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c80699c1-9ab0-db1d-dc69-7acf337dccea" executionId="66f9d26a-3730-47e4-9070-6c2ec13e6e83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6274338-0df3-fd73-be2c-eb160c514882" executionId="5ea57906-05db-4f5a-a33a-e923a013d8dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfc912be-021f-cef5-426e-d309878ad2b6" executionId="e1f2fd7f-2a90-4e99-98a3-35ca6d4aa498" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d6b5aad-2448-9abb-91df-07349bd2706e" executionId="cc0b767c-f593-4451-bb60-e8b48c267502" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6287b33e-e3dc-8eef-306b-04235ad4f3a7" executionId="2e75dc03-96bc-4d40-b0e4-5d58c14c97fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="009a15e0-b6d1-06cc-8254-a7b2a737c675" executionId="8f02779a-56c1-48e2-9547-2eb5afdba05a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98b01c62-a7fa-c50f-d819-ca09b23fcebb" executionId="42668482-a58a-4656-a6ba-4636938296a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcd4ecbe-05e7-250c-d2d5-51cacf4a1b2c" executionId="0c090477-39a8-438e-9594-78fe311a1cea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33d21b85-b9f1-a2da-7a55-d6a53ef12882" executionId="32bce5db-8a0a-44b3-9fe8-da61edeb2055" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c55a5710-9214-71cd-bde1-03225ed0420f" executionId="5d91baaf-1cfc-4d3a-9dd2-4e8d83318b9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ccdc37b-3c09-388f-097d-3c3c10fb48a6" executionId="7f13da1e-e7b6-411f-95ab-277aa6e3ba85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dec2421b-4a94-e2ce-aa84-675e40a9b192" executionId="127018ca-d7e2-46fb-9922-fb97035df6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d7f5952-3714-7d64-a87f-d86f5fd934a0" executionId="6c735607-0569-4f35-ac86-1a0f035028f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a239c58-5903-c97d-cd77-2c142c635f0a" executionId="610fdadc-688f-484f-a73a-018fb11c74df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="91" executed="91" passed="87" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.6)
+[xUnit.net 00:00:00.38]   Discovering: Engi.Substrate.Tests
+[xUnit.net 00:00:00.44]   Discovered:  Engi.Substrate.Tests
+[xUnit.net 00:00:00.44]   Starting:    Engi.Substrate.Tests
+[xUnit.net 00:00:00.58]       System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.
+[xUnit.net 00:00:00.58]       Stack Trace:
+[xUnit.net 00:00:00.59]         /source/engi-substrate/Keys/SR25519.cs(45,0): at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path)
+[xUnit.net 00:00:00.59]            at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+[xUnit.net 00:00:00.59]            at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+[xUnit.net 00:00:00.59]         /source/engi-substrate/Keys/KeypairFactory.cs(42,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed)
+[xUnit.net 00:00:00.59]         /source/engi-substrate/Keys/KeypairFactory.cs(33,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist)
+[xUnit.net 00:00:00.59]         /source/engi-tests/KeypairTests.cs(25,0): at Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword()
+[xUnit.net 00:00:00.60]       System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.
+[xUnit.net 00:00:00.60]       Stack Trace:
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/SR25519.cs(45,0): at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path)
+[xUnit.net 00:00:00.60]            at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+[xUnit.net 00:00:00.60]            at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(42,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(33,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist)
+[xUnit.net 00:00:00.60]         /source/engi-tests/KeypairTests.cs(14,0): at Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword()
+[xUnit.net 00:00:00.60]       System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.
+[xUnit.net 00:00:00.60]       Stack Trace:
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/SR25519.cs(45,0): at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path)
+[xUnit.net 00:00:00.60]            at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+[xUnit.net 00:00:00.60]            at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(42,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(33,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist)
+[xUnit.net 00:00:00.60]         /source/engi-tests/KeypairTests.cs(38,0): at Engi.Substrate.KeypairTests.Export()
+[xUnit.net 00:00:00.60]       System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.
+[xUnit.net 00:00:00.60]       Stack Trace:
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/SR25519.cs(45,0): at Engi.Substrate.Keys.SR25519.&lt;&gt;c.&lt;.cctor&gt;b__0_0(String name, Assembly assembly, Nullable`1 path)
+[xUnit.net 00:00:00.60]            at System.Runtime.InteropServices.NativeLibrary.LoadLibraryCallbackStub(String libraryName, Assembly assembly, Boolean hasDllImportSearchPathFlags, UInt32 dllImportSearchPathFlags)
+[xUnit.net 00:00:00.60]            at Engi.Substrate.Keys.SR25519.KeypairFromSeed(Byte[] seed, Byte[] keypair)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(42,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromSeed(Byte[] seed)
+[xUnit.net 00:00:00.60]         /source/engi-substrate/Keys/KeypairFactory.cs(33,0): at Engi.Substrate.Keys.KeypairFactory.CreateFromMnemonic(String mnemonic, String password, String[] wordlist)
+[xUnit.net 00:00:00.60]         /source/engi-tests/KeypairTests.cs(50,0): at Engi.Substrate.KeypairTests.Export_WithPassword()
+[xUnit.net 00:00:00.83]   Finished:    Engi.Substrate.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="e5057549a3bc" outcome="Error" timestamp="2022-07-12T15:15:44.4536958+00:00">
+        <Text>[xUnit.net 00:00:00.58]     Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="e5057549a3bc" outcome="Error" timestamp="2022-07-12T15:15:44.4543747+00:00">
+        <Text>[xUnit.net 00:00:00.60]     Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="e5057549a3bc" outcome="Error" timestamp="2022-07-12T15:15:44.4566478+00:00">
+        <Text>[xUnit.net 00:00:00.60]     Engi.Substrate.KeypairTests.Export [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="e5057549a3bc" outcome="Error" timestamp="2022-07-12T15:15:44.4566990+00:00">
+        <Text>[xUnit.net 00:00:00.60]     Engi.Substrate.KeypairTests.Export_WithPassword [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
