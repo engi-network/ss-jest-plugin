@@ -37,6 +37,7 @@ from uuid import uuid4
 from docopt import docopt
 from same_story_api.helpful_scripts import Client, setup_env, setup_logging
 
+
 from engi_cli.helpful_scripts import json_dumps
 
 log = setup_logging()
@@ -54,6 +55,9 @@ def get_spec(args):
             spec_d[key] = args[key_].replace("-", "_")
     return spec_d
 
+def get_results_callback(msg):
+    print(json_dumps(msg), flush=True)
+    time.sleep(1)
 
 def main():
     args = docopt(__doc__, options_first=False)
@@ -67,9 +71,10 @@ def main():
     assert path.exists(), f"{path=} not found"
     # exit(0)
     results_d = client.get_results(
-        spec_d, path, callback=lambda msg: print(json_dumps(msg)), no_status=args["--no-status"]
+        spec_d, path, callback=lambda msg: get_results_callback(msg), no_status=args["--no-status"]
     )
-    print(json_dumps(results_d))
+    print(json_dumps(results_d), flush=True)
+    time.sleep(1)
 
 
 if __name__ == "__main__":
