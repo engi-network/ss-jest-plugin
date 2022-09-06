@@ -1,0 +1,1 @@
+export const SCRIPT_PATH = "./src/scripts/submit_job.sh";

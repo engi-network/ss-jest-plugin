@@ -1,25 +1,30 @@
-import { spawn, execSync } from 'child_process';
-const ls = spawn('../scripts/submit_job.sh');
+import { spawn, execSync } from "child_process";
+import { MessageData } from "~/parser/models/result";
+import { SCRIPT_PATH } from "./constants"; 
 
-execSync('chmod -R 777 ../scripts/submit_job.sh')
+const job = spawn(SCRIPT_PATH);
 
-ls.stdout.on('data', (data) => {
+execSync(`chmod -R 777 ${SCRIPT_PATH}`);
+
+job.stdout.on("data", (data: ArrayLike<number>) => {
   try {
-    console.log(JSON.parse(`${data}`))
+    const messageData: MessageData = JSON.parse(`${data}`);
+
+    console.log(messageData);
   } catch (error) {
-    console.error('The python cli data can not be parsed.')
+    console.error("The python cli data can not be parsed.");
   }
 });
 
-ls.stderr.on('data', (data) => {
+job.stderr.on("data", (data: ArrayLike<number>) => {
   console.error(`${data}`);
 });
 
-ls.on('close', (code) => {
+job.on("close", (code: number) => {
   if (code === 0) {
-    console.log('The job has been done successfully.')
+    console.log("The job has been done successfully.");
   } else {
-    console.error(`Something went wrong. The exit code is ${code}`)
+    console.error(`Something went wrong. The exit code is ${code}`);
   }
 });
 
