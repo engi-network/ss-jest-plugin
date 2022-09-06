@@ -1,5 +1,4 @@
-
-const { spawn,  execSync } = require('child_process');
+import { spawn, execSync } from 'child_process';
 const ls = spawn('../scripts/submit_job.sh');
 
 execSync('chmod -R 777 ../scripts/submit_job.sh')
