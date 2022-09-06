@@ -1,8 +1,8 @@
 
 const { spawn,  execSync } = require('child_process');
-const ls = spawn('./src/script/submit_job.sh');
+const ls = spawn('../scripts/submit_job.sh');
 
-execSync('chmod -R 777 ./src/script/submit_job.sh')
+execSync('chmod -R 777 ../scripts/submit_job.sh')
 
 ls.stdout.on('data', (data) => {
   try {
