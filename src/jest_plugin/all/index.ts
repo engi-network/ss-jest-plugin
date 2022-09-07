@@ -1,8 +1,10 @@
 import * as matchers from "../matchers";
 
-const jestExpect = global.expect;
+console.log("========>");
+const jestExpect = expect;
 
 if (jestExpect !== undefined) {
+  console.log("========>");
   expect.extend(matchers);
 } else {
   throw new Error(

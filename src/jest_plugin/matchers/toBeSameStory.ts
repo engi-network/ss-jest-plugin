@@ -1,6 +1,6 @@
 import { printReceived, matcherHint } from "jest-matcher-utils";
 
-export function toBeSameStory(date, after) {
+export function toBeSameStory(date: Date, after: Date) {
   const passMessage =
     matcherHint(".not.toBeAfter", "received", "") +
     "\n\n" +
