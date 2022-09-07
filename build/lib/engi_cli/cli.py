@@ -1,4 +1,15 @@
-"""Engi CLI
+from docopt import docopt
+
+from engi_cli.helpful_scripts import CommandNotFoundException, get_scripts, run_script
+
+
+def str_scripts():
+    scripts = get_scripts()
+    width = max([len(k) for (k, v) in scripts])
+    return "\n  ".join([f"{k.ljust(width)}\t{v}" for (k, v) in scripts])
+
+
+usage = f"""Engi CLI
 
 Usage:
   engi <command> [<args>...]
@@ -10,20 +21,16 @@ Options:
   --version     Show version.
 
 The most commonly used engi commands are:
-   submission   Execute a job.
+  {str_scripts()}
 
 See `engi <command> help' for more information on a specific command.
 """
-
-from docopt import docopt
-
-from engi_cli.helpful_scripts import CommandNotFoundException, run_script
 
 VERSION = "Engi CLI v0.0.1"
 
 
 def main():
-    args = docopt(__doc__, version=VERSION, options_first=True)
+    args = docopt(usage, version=VERSION, options_first=True)
 
     command = args["<command>"]
     argv = [command] + args["<args>"]

@@ -10,6 +10,9 @@ setuptools = "*"
 same-story-api-engi = {ref = "6db4633e82685b03591778938054d8a8aab5e808", git = "https://github.com/engi-network/same-story-api.git"}
 coloredlogs = "*"
 xmltodict = "*"
+gql = {extras = ["all"], version = "*"}
+lizard = "*"
+py-bip39-bindings = "*"
 
 [dev-packages]
 jupyterlab = "*"

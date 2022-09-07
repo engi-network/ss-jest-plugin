@@ -1,43 +1,112 @@
+import asyncio
+
 import pytest
+import pytest_asyncio
+from engi_cli.blockchain_api import GraphQLUser
 
 
-@pytest.fixture(scope="module")
-def python_failing_tests():
-    return [
-        {
-            "TestId": "test/test_demo.py::test_fail",
-            "TestResult": "Failed",
-            "TestName": "test_fail",
-            "TestMessage": "assert (4 + 4) == 1",
-        }
-    ]
+@pytest.fixture(scope="session")
+def event_loop():
+    policy = asyncio.get_event_loop_policy()
+    loop = policy.new_event_loop()
+    yield loop
+    loop.close()
 
 
-@pytest.fixture(scope="module")
-def csharp_failing_tests():
-    return [
-        {
-            "TestId": "f4189c78-aabf-361e-cf7f-1ab19f4bc38c",
-            "TestResult": "Failed",
-            "TestName": "Engi.Substrate.KeypairTests.Export_WithPassword",
-            "TestMessage": "System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.",
+@pytest_asyncio.fixture(scope="session")
+async def user():
+    user = GraphQLUser("cck197", "foo", "foo")
+    await user.create()
+    yield user
+
+
+@pytest.fixture(scope="session")
+def javascript_check_object():
+    return {
+        "Repo": "https://github.com/engi-network/engi-network/demo-javascript.git",
+        "Branch": None,
+        "Commit": None,
+        "Language": "JavaScript",
+        "Files": ["./calc.js", "./calc.test.js"],
+        "Complexity": {"SLOC": 11, "Cyclomatic": 1.0},
+        "FailingTests": [
+            {
+                "TestId": "subtracts 4 - 2 to equal 2",
+                "TestResult": "Failed",
+                "TestName": "subtracts 4 - 2 to equal 2",
+            }
+        ],
+    }
+
+
+@pytest.fixture(scope="session")
+def python_check_object():
+    return {
+        "Repo": "https://github.com/engi-network/engi-network/demo-python.git",
+        "Branch": "master",
+        "Commit": "a81ab04b7439119ee29cbe1f2c9c1e467c17e738",
+        "Language": "Python",
+        "Files": ["./src/engi_python_demo/calc.py", "./test/test_demo.py"],
+        "Complexity": {
+            "SLOC": 8,
+            "Cyclomatic": 1.0,
         },
-        {
-            "TestId": "9445f183-bff2-ff58-3d33-753868952577",
-            "TestResult": "Failed",
-            "TestName": "Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_NoPassword",
-            "TestMessage": "System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.",
-        },
-        {
-            "TestId": "ef10e76d-0d13-306b-796c-d7bc66a2f7a9",
-            "TestResult": "Failed",
-            "TestName": "Engi.Substrate.KeypairTests.Export",
-            "TestMessage": "System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.",
-        },
-        {
-            "TestId": "3ccdc37b-3c09-388f-097d-3c3c10fb48a6",
-            "TestResult": "Failed",
-            "TestName": "Engi.Substrate.KeypairTests.Keyring_CreateFromMnemonic_WithKeyPassword",
-            "TestMessage": "System.NotSupportedException : The combination of OSArchitecture and OSPlatform is not supported.",
-        },
-    ]
+        "FailingTests": [
+            {
+                "TestId": "test/test_demo.py::test_fail",
+                "TestResult": "Failed",
+                "TestName": "test_fail",
+            }
+        ],
+    }
+
+
+@pytest.fixture(scope="session")
+def csharp_check_object():
+    return {
+        "Repo": "https://github.com/engi-network/engi-network/demo-csharp.git",
+        "Branch": None,
+        "Commit": None,
+        "Language": "C#",
+        "Files": [
+            "./PrimeService.Tests/PrimeService_IsPrimeShould.cs",
+            "./PrimeService/PrimeService.cs",
+        ],
+        "Complexity": {"SLOC": 17, "Cyclomatic": 1.3333333333333333},
+        "FailingTests": [
+            {
+                "TestId": "6327b858-0fd0-99bb-d810-75db0e0aa61e",
+                "TestResult": "Failed",
+                "TestName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: -1)",
+            },
+            {
+                "TestId": "7db5907a-e8c2-fd08-f6cd-19fe4bb587d4",
+                "TestResult": "Failed",
+                "TestName": "Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: 0)",
+            },
+        ],
+    }
+
+
+@pytest.fixture(scope="session")
+def python_draft_object():
+    return {
+        "FailingTests": ["test/test_demo.py::test_fail"],
+        "IsEditable": "*.py",
+        "IsAddable": "*.py",
+        "IsDeletable": "*.py",
+        "Amount": 10,
+        "Title": "My first Python job",
+    }
+
+
+@pytest.fixture(scope="session")
+def javascript_draft_object():
+    return {
+        "FailingTests": ["subtracts 4 - 2 to equal 2"],
+        "IsEditable": "*.js",
+        "IsAddable": "*.js",
+        "IsDeletable": "*.js",
+        "Amount": 10,
+        "Title": "My first JavaScript job",
+    }

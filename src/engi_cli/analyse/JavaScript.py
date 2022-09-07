@@ -7,27 +7,26 @@ from .language_helper import LanguageHelperBase
 
 log = setup_logging()
 
-PYTHON_TEST_OUTPUT_FILE = os.environ.get("PYTHON_TEST_OUTPUT_FILE", "pytest.json")
+JAVASCRIPT_TEST_OUTPUT_FILE = os.environ.get("JAVASCRIPT_TEST_OUTPUT_FILE", "jest.json")
 
 
-async def parse_pytest(test_output_dir):
+async def parse_jest(test_output_dir):
     failing_tests = []
-    full_path = test_output_dir / PYTHON_TEST_OUTPUT_FILE
+    full_path = test_output_dir / JAVASCRIPT_TEST_OUTPUT_FILE
     log.info(f"parsing {full_path=} {Path().absolute()=}")
     if not full_path.exists():
-        raise RuntimeError(f"pytest-reportlog output file {full_path} not found")
+        raise RuntimeError(f"jest output file {full_path} not found")
     test_results = []
-    for line in open(full_path):
-        t = json.loads(line)
-        if t.get("when") != "call":
-            continue
-        if t.get("outcome") == "failed":
+    jest_obj = json.load(open(full_path))
+
+    for t in jest_obj["testResults"][0]["assertionResults"]:
+        if t["status"] == "failed":
             failing_tests.append(
                 {
-                    "TestId": t["nodeid"],
+                    "TestId": t["fullName"],
                     "TestResult": "Failed",
-                    "TestName": t["location"][-1],
-                    "TestMessage": t["longrepr"]["reprcrash"]["message"],
+                    "TestName": t["fullName"],
+                    "TestMessage": t["failureMessages"][0],
                 }
             )
         test_results.append(t)
@@ -36,4 +35,4 @@ async def parse_pytest(test_output_dir):
 
 
 class LanguageHelper(LanguageHelperBase):
-    LANG = "PYTHON"
+    LANG = "JAVASCRIPT"

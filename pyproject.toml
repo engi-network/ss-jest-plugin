@@ -7,4 +7,5 @@ markers = [
     "analyse",
     "success",
     "fail",
+    "github"
 ]

@@ -8,7 +8,7 @@ Write status update messages and the final result in JSON format to stdout.
 Logging goes to stderr.
 
 Usage:
-  engi figma <path> <repository> [options]
+  engi figma <path> <repository> [options] [--knob=<key=val>]...
   engi (-h | --help)
   engi --version
 
@@ -28,6 +28,7 @@ Options:
   --no-status           Don't collect status messages
   --delay=<sec>         Print the check_id then sleep before sending request [default: 0]
   --check-id=<str>      Use the given check_id rather than generating one
+  --knob=<key=val>      Supply additional key=val arguments for the Storybook --additionalQuery option
 """
 
 import time
@@ -37,10 +38,20 @@ from uuid import uuid4
 from docopt import docopt
 from same_story_api.helpful_scripts import Client, setup_env, setup_logging
 
-
 from engi_cli.helpful_scripts import json_dumps
 
 log = setup_logging()
+
+
+def knobs2args(knobs):
+    """return the `args' property in a request object from a list of key=val
+    strings"""
+
+    def str2dict(knob):
+        key, val = knob.split("=")
+        return {"name": key, "value": val}
+
+    return {str(n): d for (n, d) in enumerate(map(str2dict, knobs))}
 
 
 def get_spec(args):
@@ -53,6 +64,9 @@ def get_spec(args):
         val = args.get(key_)
         if not key in spec_d and val is not None:
             spec_d[key] = args[key_].replace("-", "_")
+    args_ = knobs2args(args.get("--knob", []))
+    if args_:
+        spec_d["args"] = args_
     return spec_d
 
 def get_results_callback(msg):
@@ -73,8 +87,7 @@ def main():
     results_d = client.get_results(
         spec_d, path, callback=lambda msg: get_results_callback(msg), no_status=args["--no-status"]
     )
-    print(json_dumps(results_d), flush=True)
-    time.sleep(1)
+    print(json_dumps(results_d))
 
 
 if __name__ == "__main__":

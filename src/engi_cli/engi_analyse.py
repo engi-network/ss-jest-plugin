@@ -1,5 +1,9 @@
 """Engi Analyse
 
+Analyse the GitHub <repo> URL and test for Engi compatibility. Print a JSON
+object to stdout containing the output of the analysis, including the detected
+language, complexity, list of files and failing tests.
+
 Usage:
   engi analyse [options] <repo>
   engi (-h | --help)
@@ -14,16 +18,10 @@ Options:
   --test-output-dir=<str>  Where the test runner writes its output in <repo> [default: .]
 """
 import asyncio
-import json
 
 from docopt import docopt
 
-from engi_cli.helpful_scripts import (
-    GitHubRepoAnalyser,
-    get_kwargs,
-    json_dumps,
-    setup_logging,
-)
+from engi_cli.helpful_scripts import GitHubRepoAnalyser, get_kwargs, setup_logging
 
 log = setup_logging()
 
@@ -34,7 +32,7 @@ async def main():
     repo = args["<repo>"]
     analyser = GitHubRepoAnalyser(repo, **get_kwargs(args))
     await analyser.analyse()
-    print(json_dumps(analyser.failing_tests))
+    print(analyser.json())
 
 
 if __name__ == "__main__":

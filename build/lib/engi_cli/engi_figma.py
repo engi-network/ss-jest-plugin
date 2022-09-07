@@ -8,7 +8,7 @@ Write status update messages and the final result in JSON format to stdout.
 Logging goes to stderr.
 
 Usage:
-  engi figma <path> <repository> [options]
+  engi figma <path> <repository> [options] [--knob=<key=val>]...
   engi (-h | --help)
   engi --version
 
@@ -28,6 +28,7 @@ Options:
   --no-status           Don't collect status messages
   --delay=<sec>         Print the check_id then sleep before sending request [default: 0]
   --check-id=<str>      Use the given check_id rather than generating one
+  --knob=<key=val>      Supply additional key=val arguments for the Storybook --additionalQuery option
 """
 
 import time
@@ -42,6 +43,17 @@ from engi_cli.helpful_scripts import json_dumps
 log = setup_logging()
 
 
+def knobs2args(knobs):
+    """return the `args' property in a request object from a list of key=val
+    strings"""
+
+    def str2dict(knob):
+        key, val = knob.split("=")
+        return {"name": key, "value": val}
+
+    return {str(n): d for (n, d) in enumerate(map(str2dict, knobs))}
+
+
 def get_spec(args):
     check_id = args["--check-id"]
     if check_id is None:
@@ -52,6 +64,9 @@ def get_spec(args):
         val = args.get(key_)
         if not key in spec_d and val is not None:
             spec_d[key] = args[key_].replace("-", "_")
+    args_ = knobs2args(args.get("--knob", []))
+    if args_:
+        spec_d["args"] = args_
     return spec_d
 
 
