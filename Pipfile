@@ -5,8 +5,6 @@ name = "pypi"
 
 [packages]
 engi-cli = {editable = true, git = "https://github.com/engi-network/cli.git"}
-same-story-api-engi = {editable = true, git = "https://github.com/engi-network/same-story-api.git"}
-docopt = "*"
 
 [dev-packages]
 
