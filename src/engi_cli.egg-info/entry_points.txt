@@ -1,3 +1,0 @@
-[console_scripts]
-engi = engi_cli.cli:main
-naval_fate = engi_cli.naval_fate:main
