@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+engi-cli = {editable = true, git = "https://github.com/engi-network/cli.git"}
+same-story-api-engi = {editable = true, git = "https://github.com/engi-network/same-story-api.git"}
+docopt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
