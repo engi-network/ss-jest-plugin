@@ -457,7 +457,7 @@
         },
         "engi-cli": {
             "git": "https://github.com/engi-network/cli.git",
-            "ref": "7e4a2ebe808401d6d9520a93c7f31bf0c1d5e475"
+            "ref": "574a1e09e606a7a4a05488e90dea7c9f6d439f3c"
         },
         "eth-hash": {
             "hashes": [
