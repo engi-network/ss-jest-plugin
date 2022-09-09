@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-engi-cli = {editable = true, git = "https://github.com/engi-network/cli.git"}
+engi-cli = {git = "https://github.com/engi-network/cli.git"}
 
 [dev-packages]
 
