@@ -1,11 +1,10 @@
 import * as matchers from "../matchers";
 
 console.log("========>");
-const jestExpect = expect;
+const jestExpect = global.expect;
 
 if (jestExpect !== undefined) {
-  console.log("========>");
-  expect.extend(matchers);
+  jestExpect.extend(matchers);
 } else {
   throw new Error(
     "Unable to find Jest's global expect. " +

@@ -1,7 +1,5 @@
-// import { add } from "../src/add";
-
-describe("add", () => {
-  test("Commutative Law of Addition", () => {
-    expect(new Date()).toBeSameStory(new Date());
+describe("expect same story", () => {
+  test("are they same story?", () => {
+    expect(new Date("2023/10/7")).toBeSameStory(new Date());
   });
 });

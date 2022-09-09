@@ -3,5 +3,5 @@ module.exports = {
   preset: "ts-jest",
   testRegex: "test/.*\\.test\\.tsx?$",
   moduleFileExtensions: ["ts", "tsx", "js"],
-  setupFilesAfterEnv: ["./jest.setup.ts"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
 };
