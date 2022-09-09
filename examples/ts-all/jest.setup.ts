@@ -1,3 +1,3 @@
-import { toBeSameStory } from "../../src/jest_plugin";
+import { toBeSameStory } from "../../lib/jest_plugin";
 
 expect.extend({ toBeSameStory });

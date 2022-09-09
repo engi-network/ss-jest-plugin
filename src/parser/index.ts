@@ -21,9 +21,7 @@ export function getDataFromCli(): Promise<CliResult> {
             message: "Something went wrong."
           };
         }
-  
-        console.log(messageData);
-  
+
         if (step === step_count - 1) {
           result = {
             success: true,
@@ -32,22 +30,21 @@ export function getDataFromCli(): Promise<CliResult> {
         }
   
       } catch (error) {
-        console.error("The engi cli data can not be parsed.");
         reject(new Error("Something went wrong!"));
       }
     });
     
-    job.stderr.on("data", (data: ArrayLike<number>) => {
-      console.error("From error channel:", `${data}`);
+    job.stderr.on("data", () => {
+      // INFO logs come here
     });
   
-    job.on("close", (code: number) => {
-      if (code === 0) {
-        console.log("The job has been done successfully.");
-      } else {
-        console.error(`Something went wrong. The exit code is ${code}`);
-      }
-  
+    job.on("close", () => {
+      // if (code === 0) {
+      //   console.log("The job has been done successfully.");
+      // } else {
+      //   console.error(`Something went wrong. The exit code is ${code}`);
+      // }
+
       resolve(result);
     });
   });
