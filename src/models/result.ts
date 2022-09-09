@@ -31,3 +31,11 @@ export interface MessageData {
   step: number
   step_count: number
 }
+
+export interface CliResult {
+  success: boolean;
+  result?: MessageData;
+  message?: string;
+}
+
+export const PASS_SCORE = 50;
