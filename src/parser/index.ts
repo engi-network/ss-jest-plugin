@@ -1,12 +1,29 @@
-import { spawn, execSync } from "child_process";
+import { spawn } from "child_process";
+import {  formatSpecToCliOptions } from "../jest_plugin/utils";
 import { MessageData, CliResult } from "~/models/result";
-import { SCRIPT_PATH } from "./constants"; 
+import { Specification } from "~/models/specification";
 
-const job = spawn(SCRIPT_PATH);
+export function getDataFromCli(data: Specification): Promise<CliResult> {
+  const { dataPath, repository } = data;
+  
+  const options = formatSpecToCliOptions(data);
 
-execSync(`chmod -R 777 ${SCRIPT_PATH}`);
+  const job = spawn(
+    "pipenv",
+    [
+      "run",
+      "engi",
+      "submission",
+      "execute",
+      `${dataPath}`,
+      "figma",
+      `${repository}`,
+      ...options,
+      "--env",
+      "staging"]
+      );
 
-export function getDataFromCli(): Promise<CliResult> {
+
   return new Promise((resolve, reject) => {
     let result;
 
@@ -28,13 +45,16 @@ export function getDataFromCli(): Promise<CliResult> {
             result: messageData
           };
         }
+      
+      console.log("result=======>", messageData);
   
       } catch (error) {
         reject(new Error("Something went wrong!"));
       }
     });
     
-    job.stderr.on("data", () => {
+    job.stderr.on("data", (data) => {
+      console.log(`Info data=====> ${data}`);
       // INFO logs come here
     });
   
@@ -45,6 +65,7 @@ export function getDataFromCli(): Promise<CliResult> {
       //   console.error(`Something went wrong. The exit code is ${code}`);
       // }
 
+      console.log("ended with======>", result);
       resolve(result);
     });
   });

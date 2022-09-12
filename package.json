@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parse:cli": "ts-node src/parser/index.ts",
+    "parse:cli": "node lib/parser/index.js",
     "build": "tsc -p tsconfig.json",
     "test": "jest --forceExit --coverage --verbose",
     "watch-test": "npm run test -- --watchAll",

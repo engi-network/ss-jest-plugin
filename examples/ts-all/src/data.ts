@@ -12,6 +12,6 @@ export const mockInputData: Specification = {
   story: "Primay",
   width: "800",
   repository: "engi-network/same-story-storybook",
-  name: "Figma-frame-name",
-  url_check_frame: ""
+  url_check_frame: "",
+  dataPath: "../same-story-api/test/data"
 };

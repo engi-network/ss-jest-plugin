@@ -1,7 +1,7 @@
 import { printReceived, matcherHint } from "jest-matcher-utils";
 import { Specification } from "../../models/specification";
 import { getDataFromCli } from "../../parser";
-import { isSameStory } from "../utils";
+import { compactObject } from "../utils";
 
 export async function toBeSameStory(original: Specification) {
   const passMessage =
@@ -19,8 +19,8 @@ export async function toBeSameStory(original: Specification) {
   let pass: boolean;
 
   try {
-    const result = await getDataFromCli();
-    console.log("result=======>", result);
+    const result = await getDataFromCli(compactObject(original) as Specification);
+    console.log("response=======>", result);
     // if (data && data.results) {
     //   pass = isSameStory(data.results.MAE + "");
     // } else {

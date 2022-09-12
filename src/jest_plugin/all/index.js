@@ -1,6 +1,5 @@
 import * as matchers from "../matchers";
 
-console.log("========>");
 const jestExpect = global.expect;
 
 if (jestExpect !== undefined) {
