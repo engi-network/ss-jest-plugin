@@ -8,6 +8,9 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
   
   const options = formatSpecToCliOptions(data);
 
+  const controller = new AbortController();
+  const { signal } = controller;
+
   const job = spawn(
     "pipenv",
     [
@@ -20,8 +23,10 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
       `${repository}`,
       ...options,
       "--env",
-      "staging"]
-      );
+      "staging"
+    ],
+    { signal }
+    );
 
 
   return new Promise((resolve, reject) => {
@@ -45,28 +50,26 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
             result: messageData
           };
         }
-      
-      console.log("result=======>", messageData);
-  
       } catch (error) {
-        reject(new Error("Something went wrong!"));
+        if (!(data + "")) {
+          result = {
+            success: false,
+            message: "Nothing to parse from cli."
+          };
+        }
       }
     });
     
-    job.stderr.on("data", (data) => {
-      console.log(`Info data=====> ${data}`);
-      // INFO logs come here
+    job.stderr.on("data", () => {
+      // cli INFO logs come here
     });
   
-    job.on("close", () => {
-      // if (code === 0) {
-      //   console.log("The job has been done successfully.");
-      // } else {
-      //   console.error(`Something went wrong. The exit code is ${code}`);
-      // }
-
-      console.log("ended with======>", result);
-      resolve(result);
+    job.on("close", (code) => {
+      if (code === 0) {
+        resolve(result);
+      } else {
+        reject(result);
+      }
     });
   });
 }

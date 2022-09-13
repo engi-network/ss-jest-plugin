@@ -9,9 +9,9 @@ export const mockInputData: Specification = {
   height: "600",
   args: [{name: "label", value: "arse"}],
   path: "Example",
-  story: "Primay",
+  story: "Primary",
   width: "800",
   repository: "engi-network/same-story-storybook",
   url_check_frame: "",
-  dataPath: "../same-story-api/test/data"
+  dataPath: "../../../same-story-api/test/data"
 };
