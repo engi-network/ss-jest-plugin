@@ -1,8 +1,13 @@
 {
-  "name": "ss-jest-plugin",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "same-story-jest-plugin",
+  "version": "0.0.1",
+  "description": "same story jest plugin",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "types/index.d.ts"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "jest --forceExit --coverage --verbose",
@@ -12,10 +17,10 @@
     "lint": "eslint \"src/**/*.{ts,tsx,md,js}\" \"scripts/**/*.{ts,js,tsx,md}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx,md}\" --fix"
   },
-  "types": "types/index.d.ts",
-  "keywords": [],
-  "author": "",
+  "keywords": ["same story", "jest", "plugin", "extend", "matchers", "extended", "testing"],
+  "author": "Dream High",
   "license": "ISC",
+  "repository": "engi-network/ss-jest-plugin",
   "devDependencies": {
     "@types/jest": "^29.0.0",
     "@types/node": "^18.7.15",
@@ -29,5 +34,12 @@
     "ts-jest": "^28.0.8",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.2"
+  },
+  "engines": {
+    "node": "^14.15.0 || ^16.10.0 || >=18.0.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.md": "prettier --write"
   }
 }
