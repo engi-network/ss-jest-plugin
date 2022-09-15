@@ -34,6 +34,7 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
 
     job.stdout.on("data", (data: ArrayLike<number>) => {
       try {
+        console.log(`${data}`);
         const messageData: MessageData = JSON.parse(`${data}`);
         const { step, step_count, error } = messageData;
   
@@ -60,8 +61,9 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
       }
     });
     
-    job.stderr.on("data", () => {
+    job.stderr.on("data", (data: ArrayLike<number> ) => {
       // cli INFO logs come here
+      console.log(`${data}`);
     });
   
     job.on("close", (code) => {

@@ -23,6 +23,8 @@ export async function toBeSameStory(original: Specification) {
   try {
     const { success, result } = await getDataFromCli(compactObject(original) as Specification);
 
+    console.log("result=====>", result);
+
     if (result && success) {
       pass = isSameStory(result.results?.MAE + "");
     } else {
