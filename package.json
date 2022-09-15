@@ -6,7 +6,9 @@
   "types": "types/index.d.ts",
   "files": [
     "lib",
-    "types/index.d.ts"
+    "types/index.d.ts",
+    "Pipfile",
+    "Pipfile.lock"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",

@@ -29,3 +29,11 @@ expect.extend({ toBeSameStory })
     setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   };
 ```
+
+3. If you are using typescript, include this to your `tsconfig.json`.
+
+```javascript
+  ...
+  "files": ["node_modules/same-story-jest-plugin/types/index.d.ts"]
+  ...
+```
