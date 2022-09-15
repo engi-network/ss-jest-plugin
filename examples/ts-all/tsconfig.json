@@ -11,7 +11,7 @@
     "strictPropertyInitialization": true,
     "noEmit": true
   },
-  "files": ["../../types/index.d.ts"],
+  "files": ["node_modules/same-story-jest-plugin/types/index.d.ts"],
   "include": [ "src/**/*", "test/**/*"],
   "exclude": ["node_modules"]
 }
