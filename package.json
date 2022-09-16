@@ -6,9 +6,7 @@
   "types": "types/index.d.ts",
   "files": [
     "lib",
-    "types/index.d.ts",
-    "Pipfile",
-    "Pipfile.lock"
+    "types/index.d.ts"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -19,7 +17,15 @@
     "lint": "eslint \"src/**/*.{ts,tsx,md,js}\" \"scripts/**/*.{ts,js,tsx,md}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx,md}\" --fix"
   },
-  "keywords": ["same story", "jest", "plugin", "extend", "matchers", "extended", "testing"],
+  "keywords": [
+    "same story",
+    "jest",
+    "plugin",
+    "extend",
+    "matchers",
+    "extended",
+    "testing"
+  ],
   "author": "Dream High",
   "license": "ISC",
   "repository": "engi-network/ss-jest-plugin",
