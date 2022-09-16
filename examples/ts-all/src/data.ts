@@ -27,4 +27,5 @@ export const contactUsData: Specification = {
   repository: "engi-network/website",
   url_check_frame: "",
   dataPath: "../../../same-story-api/test/data",
+  debug: true
 };

@@ -3,13 +3,10 @@ import {  formatSpecToCliOptions } from "../jest_plugin/utils";
 import { MessageData, CliResult } from "~/models/result";
 import { Specification } from "~/models/specification";
 
-export function getDataFromCli(data: Specification): Promise<CliResult> {
-  const { dataPath, repository } = data;
+export function getDataFromCli(spec: Specification): Promise<CliResult> {
+  const { dataPath, repository, debug } = spec;
   
-  const options = formatSpecToCliOptions(data);
-
-  const controller = new AbortController();
-  const { signal } = controller;
+  const options = formatSpecToCliOptions(spec);
 
   const job = spawn(
     "pipenv",
@@ -25,7 +22,6 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
       "--env",
       "staging"
     ],
-    { signal }
     );
 
 
@@ -34,7 +30,6 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
 
     job.stdout.on("data", (data: ArrayLike<number>) => {
       try {
-        console.log(`${data}`);
         const messageData: MessageData = JSON.parse(`${data}`);
         const { step, step_count, error } = messageData;
   
@@ -61,9 +56,11 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
       }
     });
     
-    job.stderr.on("data", () => {
+    job.stderr.on("data", (data: ArrayLike<number>) => {
       // cli INFO logs come here
-      console.log(`${data}`);
+      if (debug) {
+        console.log(`${data}`);
+      }
     });
   
     job.on("close", (code) => {
