@@ -61,7 +61,7 @@ export function getDataFromCli(data: Specification): Promise<CliResult> {
       }
     });
     
-    job.stderr.on("data", (data: ArrayLike<number> ) => {
+    job.stderr.on("data", () => {
       // cli INFO logs come here
       console.log(`${data}`);
     });

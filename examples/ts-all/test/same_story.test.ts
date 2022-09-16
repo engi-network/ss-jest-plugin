@@ -1,13 +1,13 @@
-import {  contactUsData } from "../src/data";
+import { mockInputData, contactUsData } from "../src/data";
 
 const timeout = 60_000 * 3;
 
-describe("expect same story", () => {
-  // test("are they same story?", async () => {
-  //   await expect(mockInputData).toBeSameStory();
-  // }, timeout);
+describe("Expect same story", () => {
+  test("Are they the same story?", async () => {
+    await expect(mockInputData).toBeSameStory();
+  }, timeout);
 
-  test("are they same story?", async () => {
+  test("Is Contact page the same story?", async () => {
     await expect(contactUsData).toBeSameStory();
   }, timeout);
 
