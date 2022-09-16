@@ -1,6 +1,6 @@
 {
   "name": "same-story-jest-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "same story jest plugin",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
