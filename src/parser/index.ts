@@ -57,7 +57,6 @@ export function getDataFromCli(spec: Specification): Promise<CliResult> {
     });
     
     job.stderr.on("data", (data: ArrayLike<number>) => {
-      // cli INFO logs come here
       if (debug) {
         console.log(`${data}`);
       }
