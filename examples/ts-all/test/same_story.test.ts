@@ -1,6 +1,6 @@
 import { mockInputData, contactUsData } from "../src/data";
 
-const timeout = 60_000 * 3;
+const timeout = 60_000 * 5;
 
 describe("Expect same story", () => {
   test.concurrent("Are they the same story?", async () => {
