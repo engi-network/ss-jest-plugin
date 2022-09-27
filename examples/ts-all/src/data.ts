@@ -26,6 +26,6 @@ export const contactUsData: Specification = {
   width: "800",
   repository: "engi-network/website",
   url_check_frame: "",
-  dataPath: "../../../same-story-api/test/data",
+  dataPath: "../../../same-story-api/test/data/Contact",
   debug: true
 };

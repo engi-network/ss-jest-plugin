@@ -14,7 +14,7 @@
     "watch-test": "npm run test -- --watchAll",
     "watch-ts": "tsc -w",
     "lint:ts": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
-    "lint": "eslint \"src/**/*.{ts,tsx,md,js}\" \"scripts/**/*.{ts,js,tsx,md}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx,md,js}\"",
     "lint:fix": "eslint \"src/**/*.{ts,tsx,md}\" --fix"
   },
   "keywords": [

@@ -34,9 +34,11 @@ export function getDataFromCli(spec: Specification): Promise<CliResult> {
         const { step, step_count, error } = messageData;
   
         if (error) {
+          const errorMessage = Object.values(error).reduce((prev, current) => { prev = prev + "\n" + current; return prev;}, "");
+
           result =  {
             success: false,
-            message: "Something went wrong."
+            message: errorMessage
           };
         }
 
